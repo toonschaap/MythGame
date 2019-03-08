@@ -25,7 +25,6 @@ public class EnemyIdleMovement : MonoBehaviour
         //PingPong tussen 0 and 1
         float time = Mathf.PingPong(Time.time * speed, 1);
         transform.position = Vector3.Lerp(pointA, pointB, time);
-
 }
 
 }
