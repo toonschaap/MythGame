@@ -10,17 +10,22 @@ public class HealthSystem : MonoBehaviour
     public GameObject Heart;
     public GameObject Heart2;
     public GameObject Heart3;
-    //public Animation bloodBorder;
+    public Animation bloodBorder;
 
-  
+    // Start is called before the first frame update
+    void Start()
+    {
+        bloodBorder.gameObject.GetComponent<Animation>();
+    }
 
+    // Update is called once per frame
     void Update()
     {
         if (lives == 2)
         {
             Heart3.SetActive(false);
         }
-        if(lives == 1)
+        if (lives == 1)
         {
             Heart2.SetActive(false);
         }
@@ -28,10 +33,9 @@ public class HealthSystem : MonoBehaviour
         {
             Heart.SetActive(false);
         }
-
         if (Input.GetKeyDown("space"))
         {
-            lives--;
+            LoseLife();
         }
     }
 
@@ -39,5 +43,6 @@ public class HealthSystem : MonoBehaviour
     public void LoseLife()
     {
         lives--;
+        bloodBorder.Play("BloodEffect");
     }
 }
