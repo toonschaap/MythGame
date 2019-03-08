@@ -9,6 +9,26 @@ using UnityEngine.AI;
         private Rigidbody rigidbody;
         private Transform _player;
 
+      public float speed = 1.19f;
+   
+    private Vector3 pointA;
+    private Vector3 pointB;
+
+    [SerializeField]
+    private float xA;
+    [SerializeField]
+    private float xB;
+    [SerializeField]
+    private float yA;
+    [SerializeField]
+    private float yB;
+    [SerializeField]
+    private float zA;
+    [SerializeField]
+    private float zB;
+
+    private bool moveTo = false;
+
     public Transform PlayerTransform;
     //At what distance will the enemy walk towards the player?
     public float walkingDistance = 10.0f;
@@ -23,17 +43,24 @@ using UnityEngine.AI;
             _nav = GetComponent<NavMeshAgent>();
             rigidbody = GetComponent<Rigidbody>();
             _player = GameObject.FindGameObjectWithTag("Player").transform;
-        }
+
+        // punten waar tussen de enemy heen en weer gaat
+        pointA = new Vector3((float)xA, (float)yA, zA);
+        pointB = new Vector3((float)xB, (float)yB, zB);
+    }
 
     void FixedUpdate()
     {
-
+        if (moveTo == false)
+        {
+            idleMove();
+        }
         //Calculate distance between player
         float distance = Vector3.Distance(transform.position, PlayerTransform.position);
         //If the distance is smaller than the walkingDistance
         if (distance < walkingDistance)
         {
-
+            moveTo = true;
            GameObject varGameObject = GameObject.FindWithTag("Enemy"); 
 
             varGameObject.GetComponent<EnemyIdleMovement>().enabled = false;
@@ -48,6 +75,17 @@ using UnityEngine.AI;
 
             _animator.SetBool("run", run);
         }
+        else
+        {
+            moveTo = false;
+        }
+    }
+
+    private void idleMove()
+    {
+        //PingPong tussen 0 and 1
+        float time = Mathf.PingPong(Time.time * speed, 1);
+        transform.position = Vector3.Lerp(pointA, pointB, time);
     }
 
    }
