@@ -27,4 +27,10 @@ using UnityEngine.AI;
 
             _animator.SetBool("run", run);  
         }
+
+    private void EnemyWalkCicle()
+    {
+
     }
+
+   }
