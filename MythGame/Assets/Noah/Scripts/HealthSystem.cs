@@ -12,13 +12,8 @@ public class HealthSystem : MonoBehaviour
     public GameObject Heart3;
     //public Animation bloodBorder;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  
 
-    // Update is called once per frame
     void Update()
     {
         if (lives == 2)
@@ -32,6 +27,11 @@ public class HealthSystem : MonoBehaviour
         if (lives == 0)
         {
             Heart.SetActive(false);
+        }
+
+        if (Input.GetKeyDown("space"))
+        {
+            lives--;
         }
     }
 
