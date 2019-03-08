@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OpenChest : MonoBehaviour
 {
-    
+    public Collider collision;   
     // Start is called before the first frame update
     void Start()
     {

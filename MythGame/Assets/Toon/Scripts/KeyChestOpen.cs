@@ -18,9 +18,9 @@ public class KeyChestOpen : MonoBehaviour
     }
     
 
-     void OnCollisionEnter(Collision collision)
+     void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "ChestKey" && Input.GetKey(KeyCode.Space))
+        if (collision.gameObject.tag == "ChestKey")
         {
             Debug.Log("Key taken");
             KeyObtained = true;
