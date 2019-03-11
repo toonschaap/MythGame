@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SA
-{
 
     public class StateManager : MonoBehaviour
     {
@@ -142,4 +140,3 @@ namespace SA
             return r;
         }
     }
-}
