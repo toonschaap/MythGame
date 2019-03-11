@@ -61,9 +61,6 @@ using UnityEngine.AI;
         if (distance < walkingDistance)
         {
             moveTo = true;
-           GameObject varGameObject = GameObject.FindWithTag("Enemy"); 
-
-            varGameObject.GetComponent<EnemyIdleMovement>().enabled = false;
 
             _nav.SetDestination(_player.position);
 
