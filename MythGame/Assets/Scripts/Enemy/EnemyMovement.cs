@@ -6,13 +6,13 @@ using UnityEngine.AI;
     {
         private Animator _animator;
         private NavMeshAgent _nav;
-        private Rigidbody rigidbody;
+        private Rigidbody body;
         private Transform _player;
         void Start()
         {
             _animator = GetComponent<Animator>();
             _nav = GetComponent<NavMeshAgent>();
-            rigidbody = GetComponent<Rigidbody>();
+            body = GetComponent<Rigidbody>();
             _player = GameObject.FindGameObjectWithTag("Player").transform;
         }
 
