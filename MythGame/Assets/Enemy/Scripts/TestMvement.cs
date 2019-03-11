@@ -11,7 +11,6 @@ public class TestMvement : MonoBehaviour
     }
 
     private float speed = 20.0f;
-    private float speed2 = 200.0f;
 
 
     // Update is called once per frame

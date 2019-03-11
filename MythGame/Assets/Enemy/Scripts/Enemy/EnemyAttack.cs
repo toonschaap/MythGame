@@ -18,7 +18,8 @@ public class EnemyAttack : MonoBehaviour
     {
         if (other.gameObject == _player)
         {
-            _animator.SetBool("attackRange", true);
+           // _animator.SetBool("attackRange", true);
+             Debug.Log("Hit");
         }
         
     }
