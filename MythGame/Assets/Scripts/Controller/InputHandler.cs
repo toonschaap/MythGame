@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SA
-{
+
     public class InputHandler : MonoBehaviour
     {
 
@@ -78,4 +77,3 @@ namespace SA
 
         }
     }
-}
