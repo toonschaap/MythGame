@@ -34,8 +34,8 @@ public class TestMvement : MonoBehaviour
         transform.Translate(moveDirection2);
 
         Vector3 pos = transform.position;
-        pos.x = Mathf.Clamp(pos.x, -25, 25);
-        pos.z = Mathf.Clamp(pos.z, -25, 25);
+        //pos.x = Mathf.Clamp(pos.x, -25, 25);
+        //pos.z = Mathf.Clamp(pos.z, -25, 25);
         transform.position = pos;
     }
 }
