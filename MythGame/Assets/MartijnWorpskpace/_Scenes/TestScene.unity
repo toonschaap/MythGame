@@ -743,6 +743,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lockon: 0
   target: {fileID: 927444767}
+  MainCamera: {fileID: 351678879}
+  SecondCamera: {fileID: 0}
   pivot: {fileID: 0}
   camTrans: {fileID: 0}
 --- !u!4 &624365491
