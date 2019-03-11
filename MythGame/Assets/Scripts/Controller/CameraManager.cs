@@ -13,6 +13,9 @@ namespace SA
 
         public Transform target;
 
+        public GameObject MainCamera;
+        public GameObject SecondCamera;
+
         [HideInInspector]
         public Transform pivot;
         [HideInInspector]
@@ -20,7 +23,7 @@ namespace SA
 
         float turnSmoothing = .1f;
         private float minAngle = -10;
-        private float maxAngle = 10;
+        private float maxAngle = 4;
 
         float smoothX;
         float smoothY;
@@ -28,6 +31,12 @@ namespace SA
         float smoothYvelocity;
         private float lookAngle;
         private float tiltAngle;
+
+        private void Start()
+        {
+            MainCamera.SetActive(true);
+            SecondCamera.SetActive(false);
+        }
 
         public void Init(Transform t)
         {
@@ -57,6 +66,19 @@ namespace SA
             FollowTarget(d);
             HandleRotations(d, v, h, targetSpeed);
         }
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            MainCamera.SetActive(false);
+            SecondCamera.SetActive(true);
+        }
+
+        private void OnCollisionExit(Collision collision)
+        {
+            MainCamera.SetActive(true);
+            SecondCamera.SetActive(false);
+        }
+
 
         public void FollowTarget(float d)
         {
@@ -96,5 +118,6 @@ namespace SA
         {
             singleton = this;
         }
+
     }
 }
