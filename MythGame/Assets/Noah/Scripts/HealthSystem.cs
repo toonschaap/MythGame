@@ -10,12 +10,13 @@ public class HealthSystem : MonoBehaviour
     public GameObject Heart;
     public GameObject Heart2;
     public GameObject Heart3;
-    public Animation bloodBorder;
+    public GameObject EnemyWeapon;
+    //public Animation bloodBorder;
 
     // Start is called before the first frame update
     void Start()
     {
-        bloodBorder.gameObject.GetComponent<Animation>();
+        //bloodBorder.gameObject.GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -33,16 +34,31 @@ public class HealthSystem : MonoBehaviour
         {
             Heart.SetActive(false);
         }
-        if (Input.GetKeyDown("space"))
+        
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "EnemyWeapon")
         {
+            Debug.Log("Hit");
             LoseLife();
+            EnemyWeapon.SetActive(false);
+            StartCoroutine("PauseAttack");
         }
     }
-
 
     public void LoseLife()
     {
         lives--;
-        bloodBorder.Play("BloodEffect");
+        //bloodBorder.Play("BloodEffect");
+    }
+
+    IEnumerator PauseAttack()
+    {
+        
+        yield return new WaitForSeconds(1);
+        Debug.Log("pauseAttack");
+        EnemyWeapon.SetActive(true);
+       
     }
 }
