@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
-
 
 public class EnemyAttack : MonoBehaviour
 {
@@ -8,55 +6,54 @@ public class EnemyAttack : MonoBehaviour
     private GameObject _player;
     private bool _collidedWithPlayer;
 
-    void Awake()
+    private void Awake()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
         _animator = GetComponent<Animator>();
     }
+
     //trigger enter
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == _player)
         {
-           // _animator.SetBool("attackRange", true);
-             Debug.Log("Hit");
+            // _animator.SetBool("attackRange", true);
+            Debug.Log("Hit");
         }
-        
     }
+
     //collision enter
-    void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject == _player)
         {
             _collidedWithPlayer = true;
-            
         }
-      
     }
+
     //colision exit
-    void OnCollisionExit(Collision other)
+    private void OnCollisionExit(Collision other)
     {
         if (other.gameObject == _player)
         {
             _collidedWithPlayer = false;
         }
-    
     }
+
     //trigger exit
-    void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         if (other.gameObject == _player)
         {
             _animator.SetBool("attackRange", false);
         }
-      
     }
+
     //attack
-    void Attack()
+    private void Attack()
     {
         if (_collidedWithPlayer)
         {
-           
         }
     }
 }

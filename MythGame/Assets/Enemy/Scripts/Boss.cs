@@ -1,20 +1,22 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 
-    public class Boss : MonoBehaviour
-    {
+public class Boss : MonoBehaviour
+{
+    private GameObject[] Objects;
 
-    GameObject[] Objects;
     //The target player
     public Transform PlayerTransform;
+
     //At what distance will the enemy walk towards the player?
     public float walkingDistance = 100.0f;
+
     //In what time will the enemy complete the journey between its position and the players position
     public float smoothTime = 100.0f;
+
     //Vector3 used to store the velocity of the enemy
     private Vector3 smoothVelocity = Vector3.zero;
+
     //Call every frame
     private bool moveTo = true;
 
@@ -24,9 +26,9 @@ using UnityEngine;
 
     public bool startCou;
 
-    float currCountdownValue;
+    private float currCountdownValue;
 
-   private void Update()
+    private void Update()
     {
         //Look at the player
         transform.LookAt(PlayerTransform);
@@ -37,7 +39,6 @@ using UnityEngine;
         {
             //Move the enemy towards the player with smoothdamp
             transform.position = Vector3.SmoothDamp(transform.position, PlayerTransform.position, ref smoothVelocity, smoothTime);
-
         }
         if (distance <= 10)
         {
@@ -46,11 +47,10 @@ using UnityEngine;
         }
         if (distance >= 10)
         {
-
             moveTo = true;
             StopCoroutine("CoroutineExample");
         }
-       
+
         Attack1();
     }
 
@@ -58,21 +58,17 @@ using UnityEngine;
     {
         float distance = Vector3.Distance(transform.position, PlayerTransform.position);
 
-        if (attack == true && distance <= 10)      
+        if (attack == true && distance <= 10)
         {
-     
             Destroy(Player);
             Debug.Log("Hit");
             attack = false;
         }
-     
     }
 
-    IEnumerator CoroutineExample()
+    private IEnumerator CoroutineExample()
     {
         yield return new WaitForSeconds(1);
         attack = true;
     }
 }
-
-

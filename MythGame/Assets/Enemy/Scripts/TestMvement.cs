@@ -1,17 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class TestMvement : MonoBehaviour
 {
     // Use this for initialization
     private void Start()
     {
-
     }
 
     private float speed = 20.0f;
-
 
     // Update is called once per frame
     private void Update()
