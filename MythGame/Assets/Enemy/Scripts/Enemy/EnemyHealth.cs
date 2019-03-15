@@ -13,9 +13,8 @@ public class EnemyHealth : MonoBehaviour
     {
         if(HealthCounter == 0)
         {
-            GameObject disabler = GameObject.FindWithTag("Enemy");
-            //disabler.GetComponent<EnemyAttack>().enabled = false;
-            disabler.GetComponent<EnemyMovement>().enabled = false;
+            GetComponent<EnemyAttack>().enabled = false;
+            GetComponent<EnemyMovement>().enabled = false;
             StartCoroutine("EnemyDeathTimer");
         }
     }
