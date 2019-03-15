@@ -22,6 +22,8 @@ public class StateManager : MonoBehaviour
     [Header("States")]
     public bool run;
 
+    public bool walk;
+
     private bool onGround;
     private bool lockOn;
 
@@ -110,8 +112,9 @@ public class StateManager : MonoBehaviour
     //Run and walk animation
     private void HandleMovementAnimations()
     {
+        anim.SetBool("walk", walk);
         anim.SetBool("run", run);
-        anim.SetFloat("vertical", moveAmount, 0.04f, delta);
+        anim.SetFloat("vertical", moveAmount, 0.03f, delta);
     }
 
     //Grounded
