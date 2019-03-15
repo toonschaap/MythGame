@@ -2192,8 +2192,8 @@ GameObject:
   - component: {fileID: 1974558035}
   - component: {fileID: 1974558034}
   - component: {fileID: 1974558033}
+  - component: {fileID: 6670855500532615259}
   - component: {fileID: 1974558032}
-  - component: {fileID: 1974558039}
   m_Layer: 0
   m_Name: 'Enemy '
   m_TagString: Enemy
@@ -2298,9 +2298,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c18cb6d4191008499da4fab3134d809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
+  xA: 0
+  xB: 0
+  yA: 0
+  yB: 0
+  zA: 0
+  zB: 0
   PlayerTransform: {fileID: 0}
   walkingDistance: 10
-  smoothTime: 10
+--- !u!114 &6670855500532615259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974558031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa90babf3196e044bbe41b955e82713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthCounter: 2
 --- !u!114 &1974558032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2313,22 +2332,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fb639c8435f6b4a94b22d1734952fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1974558039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974558031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d2c4005c8efffd4b984432018995eec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.3
-  xA: 3.82
-  xB: 10
-  yA: 1.89
-  yB: 1.89
-  zA: 5.65
-  zB: 5.65
