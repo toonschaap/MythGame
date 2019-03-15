@@ -6,6 +6,10 @@ public class EnemyAttack : MonoBehaviour
     private GameObject _player;
     private bool _collidedWithPlayer;
 
+    private void Start()
+    {
+        
+    }
     private void Awake()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
