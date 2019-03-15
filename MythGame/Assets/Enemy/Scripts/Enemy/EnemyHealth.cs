@@ -6,15 +6,15 @@ public class EnemyHealth : MonoBehaviour
 {
 
     public int HealthCounter;
-    private GameObject disabler;
+   
    
     // Update is called once per frame
     void Update()
     {
         if(HealthCounter == 0)
         {
-            //GameObject disabler = GameObject.FindWithTag("")
-            disabler.GetComponent<EnemyAttack>().enabled = false;
+            GameObject disabler = GameObject.FindWithTag("Enemy");
+            //disabler.GetComponent<EnemyAttack>().enabled = false;
             disabler.GetComponent<EnemyMovement>().enabled = false;
             StartCoroutine("EnemyDeathTimer");
         }
@@ -22,7 +22,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Weapon")
+        if(collision.gameObject.tag == "Player")
         {
             HealthCounter--;
             Debug.Log("Enemy hit");
