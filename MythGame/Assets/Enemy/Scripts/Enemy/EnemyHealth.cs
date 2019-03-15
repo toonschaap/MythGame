@@ -6,17 +6,16 @@ public class EnemyHealth : MonoBehaviour
 {
 
     public int HealthCounter;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    private GameObject disabler;
+   
     // Update is called once per frame
     void Update()
     {
         if(HealthCounter == 0)
         {
+            //GameObject disabler = GameObject.FindWithTag("")
+            disabler.GetComponent<EnemyAttack>().enabled = false;
+            disabler.GetComponent<EnemyMovement>().enabled = false;
             StartCoroutine("EnemyDeathTimer");
         }
     }
