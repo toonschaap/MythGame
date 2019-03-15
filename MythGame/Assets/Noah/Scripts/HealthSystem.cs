@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class HealthSystem : MonoBehaviour
 {
-
     private int lives = 3;
     public GameObject Heart;
     public GameObject Heart2;
@@ -14,13 +10,13 @@ public class HealthSystem : MonoBehaviour
     //public Animation bloodBorder;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         //bloodBorder.gameObject.GetComponent<Animation>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (lives == 2)
         {

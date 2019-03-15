@@ -646,7 +646,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 94dd59496a9825c4392be87838f4570d, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: a511da9735f510d40a019ea6c453a3b6, type: 2}
+      objectReference: {fileID: 9100000, guid: 3be3678087439d449bd90f917f31d969, type: 2}
     - target: {fileID: 9500000, guid: 94dd59496a9825c4392be87838f4570d, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
@@ -707,6 +707,7 @@ MonoBehaviour:
   moveAmount: 0
   moveDir: {x: 0, y: 0, z: 0}
   run: 0
+  walk: 0
   anim: {fileID: 0}
   rb: {fileID: 0}
   delta: 0
@@ -974,6 +975,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c18cb6d4191008499da4fab3134d809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
+  xA: 0
+  xB: 0
+  yA: 0
+  yB: 0
+  zA: 0
+  zB: 0
+  PlayerTransform: {fileID: 0}
+  walkingDistance: 10
 --- !u!136 &1347658922
 CapsuleCollider:
   m_ObjectHideFlags: 0

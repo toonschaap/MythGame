@@ -1,12 +1,11 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-
     [SerializeField]
     private GameObject AttackCollider;
+
     [SerializeField]
     private Collider AttackCol;
 
@@ -33,5 +32,4 @@ public class PlayerAttack : MonoBehaviour
     {
         Debug.Log("hit!");
     }
-
 }
