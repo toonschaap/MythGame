@@ -44,12 +44,6 @@ public class HealthSystem : MonoBehaviour
                     hearts[2].SetActive(false);
                 }
 
-        if (Input.GetKeyDown("space")) //moet veranderd worden
-        {
-            LoseLife();
-            Debug.Log(lives);
-        }
-
         if (lives == 0)
         {
             Die();
@@ -104,8 +98,18 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision col)
+    {
+        //Debug.Log(col.tag);
+        if(col.gameObject.tag == "EnemyWeapon")
+        {
+            LoseLife();
+        }
+    }
+
     IEnumerator AttackPause()
     {
         yield return new WaitForSeconds(1);
+        Debug.Log("PauseAttack");
     }
 }
