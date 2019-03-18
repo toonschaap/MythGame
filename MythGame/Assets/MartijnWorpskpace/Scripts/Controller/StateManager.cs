@@ -13,9 +13,9 @@ public class StateManager : MonoBehaviour
     public Vector3 moveDir;
 
     [Header("Stats")]
-    private float moveSpeed = 6;
+    private float moveSpeed = 4;
 
-    private float runSpeed = 10f;
+    private float runSpeed = 8f;
     private float rotateSpeed = 5;
     private float toGround = 0.5f;
 

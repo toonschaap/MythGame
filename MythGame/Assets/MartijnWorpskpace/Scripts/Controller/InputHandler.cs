@@ -5,6 +5,7 @@ public class InputHandler : MonoBehaviour
     private float vertical;
     private float horizontal;
     private bool runInput;
+    private bool jumpInput;
 
     private float delta;
     private StateManager states;
