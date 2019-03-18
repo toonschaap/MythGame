@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2f787ccf542b2244ca30daf87d93449b
+guid: 7fa491645be82674ca3824d69c272add
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -115,7 +115,7 @@ ModelImporter:
     4300000: default
     4300002: Player_model_Mythe:rope
     4300004: body2
-    7400000: mixamo.com
+    7400000: walko
     9500000: //RootNode
     13700000: body2
     13700002: Player_model_Mythe:rope
@@ -149,10 +149,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: mixamo.com
+      name: walko
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 33
+      lastFrame: 127
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -160,7 +160,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
