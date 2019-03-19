@@ -22,8 +22,6 @@ public class StateManager : MonoBehaviour
     [Header("States")]
     public bool run;
 
-    public bool attack;
-
     public bool walk;
 
     private bool onGround;
@@ -117,6 +115,7 @@ public class StateManager : MonoBehaviour
         anim.SetBool("walk", walk);
         anim.SetBool("run", run);
         anim.SetFloat("vertical", moveAmount, 0.03f, delta);
+        anim.SetBool("Attack", Attack);
     }
 
     //Grounded
