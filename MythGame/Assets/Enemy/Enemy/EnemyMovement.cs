@@ -48,26 +48,26 @@ public class EnemyMovement : MonoBehaviour
         rigidbody = GetComponent<Rigidbody>();
         _player = GameObject.FindGameObjectWithTag("Player").transform;
 
-        // punten waar tussen de enemy heen en weer gaat
+        //The two points the enemy walks between
         pointA = new Vector3((float)xA, (float)yA, zA);
         pointB = new Vector3((float)xB, (float)yB, zB);
     }
 
     private void FixedUpdate()
     {
-        //De enemy berekent het verschil tussen hem en de speler, maar blijft in de idle.
+        //The enemy calculates the distance between him and the player, but remains idle
         float distance = float.MaxValue;
         if (moveTo == false)
         {
             idleMove();
             distance = Vector3.Distance(transform.position, PlayerTransform.position);
-            //Wanneer de enemy the speler weer waarneemt
+            //When the enemy sees the player
         }
         else
         {
             _nav.SetDestination(_player.position);
         }
-        //Wanneer de enemy de speler de eerste keer ziet.
+        //When the enemy sees the player for the first time
         if (distance < walkingDistance && moveTo == false)
         {
             bool run = _nav.velocity != Vector3.zero;
@@ -81,7 +81,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void idleMove()
     {
-        //PingPong tussen 0 and 1
+        //PingPong between 0 and 1
         float time = Mathf.PingPong(Time.time * speed, 1);
         transform.position = Vector3.Lerp(pointA, pointB, time);
     }

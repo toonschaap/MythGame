@@ -9,8 +9,7 @@ public class StandardChestOpening : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        WisdomInChest = 50;
-        ChestOpen = false;
+        
     }
 
     // Update is called once per frame
@@ -19,11 +18,28 @@ public class StandardChestOpening : MonoBehaviour
         
     }
 
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
-            ChestOpen = true;
+            GiveWisdom();
+            StartCoroutine("ChestAnimation");
+ 
         }
+    }
+
+    void GiveWisdom()
+    {
+        GameObject Finder = GameObject.FindWithTag("Player");
+        Finder.GetComponent<WisdomCounter>().IncreaseWisdomChest();
+        
+    }
+
+    IEnumerator ChestAnimation()
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(this.gameObject);
+        //Play animation
     }
 }
