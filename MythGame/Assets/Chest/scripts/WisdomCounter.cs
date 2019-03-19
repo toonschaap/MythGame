@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class WisdomCounter : MonoBehaviour
 {
-    public event Action wisdomCollected;
+    
 
     [SerializeField]
     public int Wisdom;
@@ -22,7 +22,7 @@ public class WisdomCounter : MonoBehaviour
     void Update()
     {
         Counter();
-        wisdomCollected();
+        
     }
 
     void Counter()
