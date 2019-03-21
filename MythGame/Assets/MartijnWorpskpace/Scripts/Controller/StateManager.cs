@@ -26,6 +26,7 @@ public class StateManager : MonoBehaviour
 
     private bool onGround;
     private bool lockOn;
+    private bool Attack;
 
     [HideInInspector]
     public Animator anim;

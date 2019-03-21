@@ -12,8 +12,7 @@ public class PlayerAttack : MonoBehaviour
     public GameObject activeModel;
 
     public Animator anim;
-
-    public bool attack;
+    private bool attack;
 
     private void Start()
     {
