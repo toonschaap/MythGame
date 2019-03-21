@@ -24,6 +24,7 @@ public class StateManager : MonoBehaviour
 
     public bool walk;
 
+    private bool Attack;
     private bool onGround;
     private bool lockOn;
 
