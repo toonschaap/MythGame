@@ -110,6 +110,13 @@ public class StateManager : MonoBehaviour
         anim.SetBool("onGround", onGround);
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+            Attack = true;
+        else Attack = false;
+    }
+
     //Run and walk animation
     private void HandleMovementAnimations()
     {
