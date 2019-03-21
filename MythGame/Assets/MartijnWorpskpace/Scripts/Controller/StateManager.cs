@@ -22,7 +22,6 @@ public class StateManager : MonoBehaviour
     [Header("States")]
     public bool run;
 
-    public bool Attack;
     public bool walk;
 
     private bool onGround;

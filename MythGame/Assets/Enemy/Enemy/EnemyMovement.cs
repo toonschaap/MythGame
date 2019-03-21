@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyMovement : MonoBehaviour
@@ -15,33 +16,26 @@ public class EnemyMovement : MonoBehaviour
 
     [SerializeField]
     private float xA;
-
     [SerializeField]
     private float xB;
-
     [SerializeField]
     private float yA;
-
     [SerializeField]
     private float yB;
-
     [SerializeField]
     private float zA;
-
     [SerializeField]
     private float zB;
 
     private bool moveTo = false;
 
     public Transform PlayerTransform;
-
     //At what distance will the enemy walk towards the player?
     public float walkingDistance = 10.0f;
-
     //Vector3 used to store the velocity of the enemy
     private Vector3 smoothVelocity = Vector3.zero;
 
-    private void Start()
+    void Start()
     {
         _animator = GetComponent<Animator>();
         _nav = GetComponent<NavMeshAgent>();
@@ -53,7 +47,7 @@ public class EnemyMovement : MonoBehaviour
         pointB = new Vector3((float)xB, (float)yB, zB);
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         //De enemy berekent het verschil tussen hem en de speler, maar blijft in de idle.
         float distance = float.MaxValue;
@@ -76,7 +70,10 @@ public class EnemyMovement : MonoBehaviour
             run = run && !_animator.GetBool("attackRange");
 
             _animator.SetBool("run", run);
+
         }
+
+
     }
 
     private void idleMove()
@@ -85,4 +82,5 @@ public class EnemyMovement : MonoBehaviour
         float time = Mathf.PingPong(Time.time * speed, 1);
         transform.position = Vector3.Lerp(pointA, pointB, time);
     }
+
 }
