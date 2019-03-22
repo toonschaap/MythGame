@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-
     public int HealthCounter;
-   
-   
+
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if(HealthCounter == 0)
+        if (HealthCounter <= 0)
         {
             GetComponent<EnemyAttack>().enabled = false;
             GetComponent<EnemyMovement>().enabled = false;
@@ -19,21 +17,18 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
-        if(collision.gameObject.tag == "PlayerWeapon")
+        if (collision.gameObject.tag == "PlayerWeapon")
         {
             Debug.Log("Enemy hit");
             HealthCounter--;
-            Debug.Log("Enemy hit");
         }
-       
     }
 
-    IEnumerator EnemyDeathTimer()
+    private IEnumerator EnemyDeathTimer()
     {
         yield return new WaitForSeconds(3);
         Destroy(this.gameObject);
-        
     }
 }

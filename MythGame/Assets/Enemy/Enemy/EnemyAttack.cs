@@ -10,43 +10,37 @@ public class EnemyAttack : MonoBehaviour
 
     private void Start()
     {
-        
     }
 
-    void Awake()
+    private void Awake()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
         _animator = GetComponent<Animator>();
     }
+
     //trigger enter
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == _player)
         {
             _animator.SetBool("attackRange", true);
-            
         }
-        
     }
 
-    
     //trigger exit
-    void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         if (other.gameObject == _player)
         {
             _animator.SetBool("attackRange", false);
         }
-      
     }
+
     //attack
-    void Attack()
+    private void Attack()
     {
         if (_collidedWithPlayer)
         {
-           
         }
     }
-
-
 }

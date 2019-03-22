@@ -19,6 +19,9 @@ public class StateManager : MonoBehaviour
     private float rotateSpeed = 5;
     private float toGround = 0.5f;
 
+    [SerializeField]
+    private BoxCollider Sword;
+
     [Header("States")]
     public bool run;
 
@@ -27,7 +30,6 @@ public class StateManager : MonoBehaviour
     private bool Attack;
     private bool onGround;
     private bool lockOn;
-    private bool Attack;
 
     [HideInInspector]
     public Animator anim;
@@ -40,6 +42,11 @@ public class StateManager : MonoBehaviour
 
     [HideInInspector]
     public LayerMask ignoreLayers;
+
+    public void Start()
+    {
+        Sword.enabled = false;
+    }
 
     //rigid body setup
     public void Init()
@@ -114,9 +121,15 @@ public class StateManager : MonoBehaviour
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
-        Attack = true;
-        else Attack = false;
-
+        {
+            Attack = true;
+            Sword.enabled = true;
+        }
+        else
+        {
+            Attack = false;
+            Sword.enabled = false;
+        }
     }
 
     //Run and walk animation

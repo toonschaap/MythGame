@@ -55,6 +55,6 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnTriggerEnter(Collider AttackCol)
     {
-        Debug.Log("hit!");
+        //Debug.Log("hit!");
     }
 }
