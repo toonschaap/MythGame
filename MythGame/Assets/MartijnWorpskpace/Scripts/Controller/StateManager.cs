@@ -24,6 +24,7 @@ public class StateManager : MonoBehaviour
 
     public bool walk;
 
+    private bool Attack;
     private bool onGround;
     private bool lockOn;
 
@@ -107,6 +108,14 @@ public class StateManager : MonoBehaviour
         onGround = OnGround();
 
         anim.SetBool("onGround", onGround);
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        Attack = true;
+        else Attack = false;
+
     }
 
     //Run and walk animation

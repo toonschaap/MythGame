@@ -21,8 +21,9 @@ public class EnemyHealth : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "PlayerWeapon")
         {
+            Debug.Log("Enemy hit");
             HealthCounter--;
             Debug.Log("Enemy hit");
         }
