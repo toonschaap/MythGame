@@ -11,7 +11,7 @@ public class HealthSystem : MonoBehaviour
     [SerializeField]
     private CapsuleCollider PlayerCollider;
 
-    private int lives = 3;
+    private int lives = 10;
     // public int checkPointLives = 3;
     //private int checkpointState = -1;
 
