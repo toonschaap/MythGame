@@ -185,15 +185,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 9f5102394fcae9b408ea1a46a89ab1a0, type: 3}
       propertyPath: m_Controller
-      value: 
+      value:
       objectReference: {fileID: 9100000, guid: 3be3678087439d449bd90f917f31d969, type: 2}
     - target: {fileID: 13700000, guid: 9f5102394fcae9b408ea1a46a89ab1a0, type: 3}
       propertyPath: m_Materials.Array.data[0]
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 411ec0e28ab716d4191b6d204f6c5521, type: 2}
     - target: {fileID: 13700002, guid: 9f5102394fcae9b408ea1a46a89ab1a0, type: 3}
       propertyPath: m_Materials.Array.data[0]
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 01f696c207abb4e45803e3754b6c36a4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5102394fcae9b408ea1a46a89ab1a0, type: 3}
@@ -433,8 +433,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7314195fd4ba85c43bf79e3c00a2b9a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   lockon: 0
   target: {fileID: 927444767}
   MainCamera: {fileID: 351678879}
@@ -593,8 +593,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7314195fd4ba85c43bf79e3c00a2b9a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   lockon: 0
   target: {fileID: 927444767}
   MainCamera: {fileID: 351678879}
@@ -731,7 +731,7 @@ PrefabInstance:
     - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: PlayerTransform
-      value: 
+      value:
       objectReference: {fileID: 927444767}
     - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
@@ -749,12 +749,6 @@ GameObject:
 --- !u!4 &831053961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 9f5102394fcae9b408ea1a46a89ab1a0,
-    type: 3}
-  m_PrefabInstance: {fileID: 34019880}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &831053962 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 9500000, guid: 9f5102394fcae9b408ea1a46a89ab1a0,
     type: 3}
   m_PrefabInstance: {fileID: 34019880}
   m_PrefabAsset: {fileID: 0}
@@ -819,11 +813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: ec015376fb665b34bbb7425319f401e7, type: 3}
       propertyPath: m_Materials.Array.data[1]
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: ec015376fb665b34bbb7425319f401e7, type: 3}
     - target: {fileID: 2300000, guid: ec015376fb665b34bbb7425319f401e7, type: 3}
       propertyPath: m_Materials.Array.data[0]
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: b9d06ed484f620a47bf3709799d31eba, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec015376fb665b34bbb7425319f401e7, type: 3}
@@ -927,8 +921,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7e65fc51df11c24cb99571d49dc0315, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   activeModel: {fileID: 831053960}
   horizontal: 0
   vertical: 0
@@ -952,8 +946,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aaf20bf3daf13c34f918fe4d4ee1b615, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!54 &927444765
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1010,13 +1004,12 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 715c7833731c5f340bc602f2617c5f8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AttackCollider: {fileID: 0}
-  AttackCol: {fileID: 0}
-  activeModel: {fileID: 831053960}
-  anim: {fileID: 831053962}
-  attack: 0
+  m_Name:
+  m_EditorClassIdentifier:
+  AttackCollider: {fileID: 1141359686}
+  AttackCol: {fileID: 1141359689}
+  activeModel: {fileID: 1141359686}
+  anim: {fileID: 9500000, guid: f6b7424c9c5b7f54690b795a69292284, type: 3}
 --- !u!1 &971323082
 GameObject:
   m_ObjectHideFlags: 0
