@@ -54,6 +54,7 @@ public class HealthSystem : MonoBehaviour
 
         if (lives == 0)
         {
+            DeathScreen();
             Anims();
             Death = true;
             PlayerCollider.enabled = false;
@@ -106,9 +107,7 @@ public class HealthSystem : MonoBehaviour
 
     private void DeathScreen()
     {
-        Debug.Log("deathscreen");
         StartCoroutine("Dying");
-        SceneManager.LoadScene("Deathscreen");
     }
 
     /* private void OnTriggerEnter(Collider col)
@@ -132,7 +131,7 @@ public class HealthSystem : MonoBehaviour
 
     private IEnumerator Dying()
     {
-        yield return new WaitForSeconds(2f);
-        Debug.Log("dying");
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Deathscreen");
     }
 }
