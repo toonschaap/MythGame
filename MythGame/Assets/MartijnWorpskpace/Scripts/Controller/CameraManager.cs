@@ -19,8 +19,8 @@ public class CameraManager : MonoBehaviour
     public Transform camTrans;
 
     private float turnSmoothing = .1f;
-    private float minAngle = -10;
-    private float maxAngle = 4;
+    private float minAngle = 0;
+    private float maxAngle = 2;
 
     private float smoothX;
     private float smoothY;
