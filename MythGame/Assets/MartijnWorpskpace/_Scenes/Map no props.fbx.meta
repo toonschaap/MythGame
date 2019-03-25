@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: a8cc63765e19fec47a5fac33774c72bf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: map:aiSkyDomeLight1
+    100004: map:groubd
+    100006: map:groubd1
+    100008: map:groubd2
+    100010: map:group1
+    100012: map:group2
+    100014: map:imagePlane1
+    100016: map:inner_walls
+    100018: map:Main
+    100020: map:pCube12
+    100022: map:pCube13
+    100024: map:pCube14
+    100026: map:Plane1
+    100028: map:Plane2
+    100030: map:Plane5
+    100032: map:Plane6
+    100034: map:Plane7
+    100036: map:Plane8
+    100038: map:Plane9
+    100040: map:Small_1
+    100042: map:Small_1 1
+    100044: map:Small_2
+    100046: map:Small_2 1
+    100048: map:Small_3
+    100050: map:Small_4
+    100052: map:Small_5
+    100054: map:Small_6
+    100056: map:small_wall2
+    100058: map:small_wall3
+    100060: map:Stone_walls
+    100062: map:wall3
+    100064: map:wall4
+    100066: map:Walls
+    400000: //RootNode
+    400002: map:aiSkyDomeLight1
+    400004: map:groubd
+    400006: map:groubd1
+    400008: map:groubd2
+    400010: map:group1
+    400012: map:group2
+    400014: map:imagePlane1
+    400016: map:inner_walls
+    400018: map:Main
+    400020: map:pCube12
+    400022: map:pCube13
+    400024: map:pCube14
+    400026: map:Plane1
+    400028: map:Plane2
+    400030: map:Plane5
+    400032: map:Plane6
+    400034: map:Plane7
+    400036: map:Plane8
+    400038: map:Plane9
+    400040: map:Small_1
+    400042: map:Small_1 1
+    400044: map:Small_2
+    400046: map:Small_2 1
+    400048: map:Small_3
+    400050: map:Small_4
+    400052: map:Small_5
+    400054: map:Small_6
+    400056: map:small_wall2
+    400058: map:small_wall3
+    400060: map:Stone_walls
+    400062: map:wall3
+    400064: map:wall4
+    400066: map:Walls
+    2100000: map_Muren
+    2100002: map_lambert2
+    2100004: map_lambert6
+    2100006: map_lambert8
+    2300000: map:groubd
+    2300002: map:groubd1
+    2300004: map:groubd2
+    2300006: map:pCube12
+    2300008: map:pCube13
+    2300010: map:pCube14
+    2300012: map:Plane1
+    2300014: map:Plane2
+    2300016: map:Plane5
+    2300018: map:Plane6
+    2300020: map:Plane7
+    2300022: map:Plane8
+    2300024: map:Plane9
+    2300026: map:Small_1 1
+    2300028: map:Small_2 1
+    2300030: map:small_wall2
+    2300032: map:small_wall3
+    2300034: map:wall3
+    2300036: map:wall4
+    3300000: map:groubd
+    3300002: map:groubd1
+    3300004: map:groubd2
+    3300006: map:pCube12
+    3300008: map:pCube13
+    3300010: map:pCube14
+    3300012: map:Plane1
+    3300014: map:Plane2
+    3300016: map:Plane5
+    3300018: map:Plane6
+    3300020: map:Plane7
+    3300022: map:Plane8
+    3300024: map:Plane9
+    3300026: map:Small_1 1
+    3300028: map:Small_2 1
+    3300030: map:small_wall2
+    3300032: map:small_wall3
+    3300034: map:wall3
+    3300036: map:wall4
+    4300000: map:pCube12
+    4300002: map:pCube13
+    4300004: map:pCube14
+    4300006: map:Plane2
+    4300008: map:Plane1
+    4300010: map:Plane5
+    4300012: map:wall4
+    4300014: map:Plane9
+    4300016: map:Plane8
+    4300018: map:Plane7
+    4300020: map:Plane6
+    4300022: map:Small_2
+    4300024: map:Small_1
+    4300026: map:small_wall2
+    4300028: map:groubd
+    4300030: map:wall3
+    4300032: map:small_wall3
+    4300034: map:groubd1
+    4300036: map:groubd2
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
