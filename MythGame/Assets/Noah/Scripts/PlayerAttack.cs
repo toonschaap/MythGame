@@ -46,7 +46,7 @@ public class PlayerAttack : MonoBehaviour
             {
                 anim.SetBool("Attack", attack);
                 AttackCollider.SetActive(true);
-                yield return new WaitForSeconds(2);
+                //yield return new WaitForSeconds(2);
                 AttackCollider.SetActive(false);
             }
             yield return null;
