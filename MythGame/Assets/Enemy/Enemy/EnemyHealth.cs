@@ -13,7 +13,6 @@ public class EnemyHealth : MonoBehaviour
         {
             GetComponent<EnemyAttack>().enabled = false;
             GetComponent<EnemyMovement>().enabled = false;
-            StartCoroutine("EnemyDeathTimer");
         }
     }
 

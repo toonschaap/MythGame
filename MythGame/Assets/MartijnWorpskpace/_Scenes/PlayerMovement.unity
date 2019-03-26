@@ -945,6 +945,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: HealthCounter
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3b3a74a446bbea4383ff3da31869593, type: 3}
 --- !u!1 &797581070
