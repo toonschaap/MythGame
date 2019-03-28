@@ -85,6 +85,7 @@ public class CameraManager : MonoBehaviour
 
     private void HandleRotations(float d, float v, float h, float targetSpeed)
     {
+        Cursor.lockState = CursorLockMode.Locked;
         if (turnSmoothing > 0)
         {
             smoothX = Mathf.SmoothDamp(smoothX, h, ref smoothXvelocity, turnSmoothing);

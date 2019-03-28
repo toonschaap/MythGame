@@ -1202,7 +1202,7 @@ MonoBehaviour:
   ignoreLayers:
     serializedVersion: 2
     m_Bits: 0
-  attackSpeed: 0.5
+  attackSpeed: 0.2
 --- !u!114 &927444764
 MonoBehaviour:
   m_ObjectHideFlags: 0
