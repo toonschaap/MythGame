@@ -20,6 +20,7 @@ public class BossRockAttack : MonoBehaviour
     {
 
         // START SLAM ANIMATION HERE
+
         StartCoroutine("StartSlamAnimation");
         spawnTimer += 0.01f;
         if (SlamAttack == true)
