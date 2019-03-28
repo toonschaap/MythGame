@@ -3,58 +3,37 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject AttackCollider;
+    private bool Attack;
 
-    [SerializeField]
-    private Collider AttackCol;
-
-    public GameObject activeModel;
-
+    [HideInInspector]
     public Animator anim;
-    private bool attack;
 
-    private void Start()
+    [SerializeField]
+    private float attackSpeed = 1f;
+
+    private float nextAttack = 0.0f;
+
+    [SerializeField]
+    private BoxCollider Sword;
+
+    public void Start()
     {
-        StartCoroutine("Attack");
-        anim.GetComponent<Animator>();
+        Sword.enabled = false;
+        anim.SetBool("Attack", Attack);
     }
 
-    private void SetupAnimator()
+    private void Update()
     {
-        if (activeModel == null)
+        if (Input.GetMouseButtonDown(0) && Time.time > nextAttack)
         {
-            anim = activeModel.GetComponent<Animator>();
-            if (anim == null)
-            {
-                Debug.Log("no model found");
-            }
-            else
-            {
-                activeModel = anim.gameObject;
-            }
+            Attack = true;
+            Sword.enabled = true;
+            nextAttack = Time.time + attackSpeed;
         }
-
-        anim = GetComponentInChildren<Animator>();
-    }
-
-    private IEnumerator Attack()
-    {
-        while (true)
+        else
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                anim.SetBool("Attack", attack);
-                AttackCollider.SetActive(true);
-                //yield return new WaitForSeconds(2);
-                AttackCollider.SetActive(false);
-            }
-            yield return null;
+            Attack = false;
+            Sword.enabled = false;
         }
-    }
-
-    private void OnTriggerEnter(Collider AttackCol)
-    {
-        //Debug.Log("hit!");
     }
 }
