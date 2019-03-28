@@ -118,12 +118,18 @@ public class StateManager : MonoBehaviour
         anim.SetBool("onGround", onGround);
     }
 
+    [SerializeField]
+    private float attackSpeed = 1f;
+
+    private float nextAttack = 0.0f;
+
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Time.time > nextAttack)
         {
             Attack = true;
             Sword.enabled = true;
+            nextAttack = Time.time + attackSpeed;
         }
         else
         {
