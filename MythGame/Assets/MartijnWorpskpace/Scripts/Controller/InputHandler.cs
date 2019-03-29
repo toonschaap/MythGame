@@ -46,12 +46,10 @@ public class InputHandler : MonoBehaviour
 
         if (keys)
         {
-            if (isWalking)
             {
                 walk.Play();
                 walk.loop = true;
             }
-
         }
 
         if (Input.GetKeyUp("w") || Input.GetKeyUp("s") || Input.GetKeyUp("a") || Input.GetKeyUp("d") || shift)
@@ -60,24 +58,18 @@ public class InputHandler : MonoBehaviour
             walk.Stop();
         }
 
-        //if (shift && Input.GetKeyDown("w") || shift && Input.GetKeyDown("s") || shift && Input.GetKeyDown("a") || shift && Input.GetKeyDown("d"))
-        //{
-
-        // }
-
-        if (keys)
+        if (shift && Input.GetKey("w") || shift && Input.GetKey("s") || shift && Input.GetKey("a") || shift && Input.GetKey("d"))
         {
-            if (shift)
-            {
-                isWalking = false;
-                Debug.Log("run");
-                run.Play();
-                run.loop = true;
-            }
+            isWalking = false;
+            Debug.Log("run");
+            run.Play();
+            run.loop = true;
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
+            walk.Play();
+            walk.loop = true;
             run.Stop();
             isWalking = true;
         }
