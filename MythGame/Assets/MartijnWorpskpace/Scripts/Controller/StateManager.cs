@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class StateManager : MonoBehaviour
 {
@@ -30,6 +31,8 @@ public class StateManager : MonoBehaviour
     private bool Attack;
     private bool onGround;
     private bool lockOn;
+
+    public AudioSource slash;
 
     [HideInInspector]
     public Animator anim;
@@ -122,6 +125,7 @@ public class StateManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            StartCoroutine("playSound");
             Attack = true;
             Sword.enabled = true;
         }
@@ -130,6 +134,12 @@ public class StateManager : MonoBehaviour
             Attack = false;
             Sword.enabled = false;
         }
+    }
+
+    private IEnumerator playSound()
+    {
+        yield return new WaitForSeconds(0.4f);
+        slash.Play();
     }
 
     //Run and walk animation

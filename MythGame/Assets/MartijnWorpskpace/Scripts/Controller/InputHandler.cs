@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class InputHandler : MonoBehaviour
 {
@@ -6,6 +7,10 @@ public class InputHandler : MonoBehaviour
     private float horizontal;
     private bool runInput;
     private bool jumpInput;
+
+    public AudioSource walk;
+    public AudioSource run;
+    private bool isWalking = true;
 
     private float delta;
     private StateManager states;
@@ -35,6 +40,47 @@ public class InputHandler : MonoBehaviour
         //delta time
         delta = Time.deltaTime;
         states.Tick(delta);
+
+        bool shift = Input.GetKeyDown(KeyCode.LeftShift);
+        bool keys = Input.GetKeyDown("w") || Input.GetKeyDown("s") || Input.GetKeyDown("a") || Input.GetKeyDown("d");
+
+        if (keys)
+        {
+            if (isWalking)
+            {
+                walk.Play();
+                walk.loop = true;
+            }
+
+        }
+
+        if (Input.GetKeyUp("w") || Input.GetKeyUp("s") || Input.GetKeyUp("a") || Input.GetKeyUp("d") || shift)
+        {
+            isWalking = false;
+            walk.Stop();
+        }
+
+        //if (shift && Input.GetKeyDown("w") || shift && Input.GetKeyDown("s") || shift && Input.GetKeyDown("a") || shift && Input.GetKeyDown("d"))
+        //{
+
+        // }
+
+        if (keys)
+        {
+            if (shift)
+            {
+                isWalking = false;
+                Debug.Log("run");
+                run.Play();
+                run.loop = true;
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            run.Stop();
+            isWalking = true;
+        }
     }
 
     private void GetInput()

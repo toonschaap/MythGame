@@ -12,7 +12,10 @@ public class HealthSystem : MonoBehaviour
     private CapsuleCollider PlayerCollider;
 
     private int lives = 3;
+
     private int loopTime = 5;
+
+    public AudioSource takeDamage;
 
     private bool Death;
     private bool canLoseLife = true;
@@ -31,10 +34,10 @@ public class HealthSystem : MonoBehaviour
         bloodBorder.gameObject.GetComponent<Animation>();
     }
 
-    // Update is called once per frame
-    private void FixedUpdate()
+// Update is called once per frame
+private void FixedUpdate()
     {
-        
+
         if (lives == 2)
         {
             hearts[0].SetActive(false);
@@ -60,8 +63,9 @@ public class HealthSystem : MonoBehaviour
 
     public void LoseLife()
     {
-        if (canLoseLife)
+        if (canLoseLife == true)
         {
+            takeDamage.Play();
             Anims();
             StartCoroutine("AttackPause");
             StartCoroutine("BlinkEffect");
