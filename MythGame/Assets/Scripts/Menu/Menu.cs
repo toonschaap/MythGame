@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -52,7 +53,7 @@ public class Menu : MonoBehaviour
 
     void StopOnClick()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        SceneManager.LoadScene("MainMenu");
     }
 
 }
