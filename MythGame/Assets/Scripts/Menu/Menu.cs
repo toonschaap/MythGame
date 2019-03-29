@@ -54,6 +54,7 @@ public class Menu : MonoBehaviour
     void StopOnClick()
     {
         SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1;
     }
 
 }
