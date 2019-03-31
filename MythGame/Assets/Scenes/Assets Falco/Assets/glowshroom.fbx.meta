@@ -1,51 +1,15 @@
 fileFormatVersion: 2
-guid: e3321253d7a8bf24a80adfbbc3a1c5f1
+guid: 08123a0a1c7d0a54a86c9e770e7bef61
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Bak
-    100002: Draaidingen
-    100004: Frame2
-    100006: //RootNode
-    100008: Wheels
-    100010: Wiel
-    100012: Wiel1
-    100014: Wiel2
-    100016: Wiel3
-    400000: Bak
-    400002: Draaidingen
-    400004: Frame2
-    400006: //RootNode
-    400008: Wheels
-    400010: Wiel
-    400012: Wiel1
-    400014: Wiel2
-    400016: Wiel3
-    2100000: lambert5
-    2100002: lambert3
-    2100004: lambert2
-    2100006: lambert4
-    2300000: Bak
-    2300002: Draaidingen
-    2300004: Frame2
-    2300006: Wiel
-    2300008: Wiel1
-    2300010: Wiel2
-    2300012: Wiel3
-    3300000: Bak
-    3300002: Draaidingen
-    3300004: Frame2
-    3300006: Wiel
-    3300008: Wiel1
-    3300010: Wiel2
-    3300012: Wiel3
-    4300000: Wiel3
-    4300002: Wiel2
-    4300004: Wiel1
-    4300006: Wiel
-    4300008: Draaidingen
-    4300010: Frame2
-    4300012: Bak
+    100000: //RootNode
+    400000: //RootNode
+    2100000: lambert2
+    2100002: lambert1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Untitled_1:Glowshroom
   externalObjects: {}
   materials:
     importMaterials: 1
