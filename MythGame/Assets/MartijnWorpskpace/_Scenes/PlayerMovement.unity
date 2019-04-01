@@ -275,7 +275,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c29189879ee98a6409e878ef7e921e70, type: 2}
+      objectReference: {fileID: 2100000, guid: 411ec0e28ab716d4191b6d204f6c5521, type: 2}
     - target: {fileID: 2300002, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -292,6 +292,30 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 1ec3e4dbb3d2eb849b91bc5dfffd36d6, type: 2}
+    - target: {fileID: 400000, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98bf067d266b39c4888aae5195c40454, type: 3}
 --- !u!1 &283687328
@@ -687,7 +711,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 1, z: 10}
+  m_Size: {x: 30, y: 1, z: 30}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &420242866
 Rigidbody:
@@ -1067,7 +1091,13 @@ PrefabInstance:
       propertyPath: HealthCounter
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 703661138402368554, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 703661138402368554, guid: d3b3a74a446bbea4383ff3da31869593, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3b3a74a446bbea4383ff3da31869593, type: 3}
 --- !u!1 &797581070
 GameObject:
