@@ -731,4 +731,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Projectile: {fileID: 3197973174690275699, guid: f27028fa1ab2997449125f88f8488704,
     type: 3}
-  firerate: 5
+  firerate: 3

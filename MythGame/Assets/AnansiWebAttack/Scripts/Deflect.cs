@@ -17,7 +17,7 @@ public class Deflect : MonoBehaviour
 
         if (collision.gameObject.tag == "projectile")
         {
-            GameObject finder = GameObject.FindGameObjectWithTag("projectile");
+            GameObject finder = collision.gameObject;
             finder.GetComponent<WebBallMovement>().InverseMovement();
             Debug.Log("collide");
         }
