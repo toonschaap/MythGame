@@ -12,7 +12,10 @@ public class HealthSystem : MonoBehaviour
     private CapsuleCollider PlayerCollider;
 
     private int lives = 3;
+<<<<<<< HEAD
 
+=======
+>>>>>>> aad469d3eeec02ca74e7f6d5d95de54be980d6b2
     private int loopTime = 5;
 
     public AudioSource takeDamage;
@@ -23,6 +26,7 @@ public class HealthSystem : MonoBehaviour
     [SerializeField]
     private GameObject Player;
 
+<<<<<<< HEAD
     public List<GameObject> hearts = new List<GameObject>();
     public List<Renderer> playerRenderers = new List<Renderer>();
 
@@ -30,6 +34,22 @@ public class HealthSystem : MonoBehaviour
 private void FixedUpdate()
     {
 
+=======
+    public Animation bloodBorder;
+
+    public List<GameObject> hearts = new List<GameObject>();
+    public List<Renderer> playerRenderers = new List<Renderer>();
+
+    //Start is called before the first frame update
+    private void Start()
+    {
+        bloodBorder.gameObject.GetComponent<Animation>();
+    }
+
+    // Update is called once per frame
+    private void FixedUpdate()
+    {
+>>>>>>> aad469d3eeec02ca74e7f6d5d95de54be980d6b2
         if (lives == 2)
         {
             hearts[0].SetActive(false);
@@ -50,12 +70,19 @@ private void FixedUpdate()
             Death = true;
             PlayerCollider.enabled = false;
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> aad469d3eeec02ca74e7f6d5d95de54be980d6b2
     }
 
     public void LoseLife()
     {
+<<<<<<< HEAD
         if (canLoseLife == true)
+=======
+        if (canLoseLife)
+>>>>>>> aad469d3eeec02ca74e7f6d5d95de54be980d6b2
         {
             takeDamage.Play();
             Anims();
@@ -63,6 +90,11 @@ private void FixedUpdate()
             StartCoroutine("BlinkEffect");
             lives--;
             Debug.Log("-health");
+<<<<<<< HEAD
+=======
+
+            bloodBorder.Play("BloodEffect");
+>>>>>>> aad469d3eeec02ca74e7f6d5d95de54be980d6b2
         }
     }
 
@@ -107,7 +139,11 @@ private void FixedUpdate()
 
     private IEnumerator BlinkEffect()
     {
+<<<<<<< HEAD
         for(int i = 0; i < loopTime; i++)
+=======
+        for (int i = 0; i < loopTime; i++)
+>>>>>>> aad469d3eeec02ca74e7f6d5d95de54be980d6b2
         {
             playerRenderers[0].enabled = false;
             playerRenderers[1].enabled = false;

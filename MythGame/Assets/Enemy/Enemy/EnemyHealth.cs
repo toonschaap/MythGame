@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public AudioSource hit;
     public int HealthCounter;
     public AudioSource dealDamage;
 
@@ -22,7 +23,11 @@ public class EnemyHealth : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerWeapon")
         {
+<<<<<<< HEAD
             dealDamage.Play();
+=======
+            hit.Play();
+>>>>>>> aad469d3eeec02ca74e7f6d5d95de54be980d6b2
             Debug.Log("Enemy hit");
             HealthCounter--;
         }

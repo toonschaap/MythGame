@@ -18,6 +18,8 @@ public class CameraManager : MonoBehaviour
     [HideInInspector]
     public Transform camTrans;
 
+    public bool bossfight = false;
+
     private float turnSmoothing = .1f;
     private float minAngle = 0;
     private float maxAngle = 2;
@@ -33,6 +35,23 @@ public class CameraManager : MonoBehaviour
     {
         MainCamera.SetActive(true);
         SecondCamera.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (!bossfight)
+        {
+            SecondCamera.SetActive(true);
+        }
+        else
+        {
+            MainCamera.SetActive(true);
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            transform.LookAt(target);
+        }
     }
 
     public void Init(Transform t)
@@ -64,7 +83,7 @@ public class CameraManager : MonoBehaviour
         HandleRotations(d, v, h, targetSpeed);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnCollisionEnter(Collision collision)
     {
         MainCamera.SetActive(false);
         SecondCamera.SetActive(true);
@@ -75,6 +94,7 @@ public class CameraManager : MonoBehaviour
         MainCamera.SetActive(true);
         SecondCamera.SetActive(false);
     }
+    */
 
     public void FollowTarget(float d)
     {
@@ -85,6 +105,7 @@ public class CameraManager : MonoBehaviour
 
     private void HandleRotations(float d, float v, float h, float targetSpeed)
     {
+        Cursor.lockState = CursorLockMode.Locked;
         if (turnSmoothing > 0)
         {
             smoothX = Mathf.SmoothDamp(smoothX, h, ref smoothXvelocity, turnSmoothing);
