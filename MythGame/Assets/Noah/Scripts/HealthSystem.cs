@@ -14,6 +14,8 @@ public class HealthSystem : MonoBehaviour
     private int lives = 3;
     private int loopTime = 5;
 
+    public AudioSource takeDamage;
+
     private bool Death;
     private bool canLoseLife = true;
 
@@ -24,7 +26,7 @@ public class HealthSystem : MonoBehaviour
 
     public List<GameObject> hearts = new List<GameObject>();
     public List<Renderer> playerRenderers = new List<Renderer>();
- 
+
     //Start is called before the first frame update
     private void Start()
     {
@@ -34,7 +36,6 @@ public class HealthSystem : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        
         if (lives == 2)
         {
             hearts[0].SetActive(false);
@@ -55,13 +56,13 @@ public class HealthSystem : MonoBehaviour
             Death = true;
             PlayerCollider.enabled = false;
         }
-
     }
 
     public void LoseLife()
     {
         if (canLoseLife)
         {
+            takeDamage.Play();
             Anims();
             StartCoroutine("AttackPause");
             StartCoroutine("BlinkEffect");
@@ -113,7 +114,7 @@ public class HealthSystem : MonoBehaviour
 
     private IEnumerator BlinkEffect()
     {
-        for(int i = 0; i < loopTime; i++)
+        for (int i = 0; i < loopTime; i++)
         {
             playerRenderers[0].enabled = false;
             playerRenderers[1].enabled = false;

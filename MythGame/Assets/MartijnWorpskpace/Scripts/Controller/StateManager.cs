@@ -31,6 +31,8 @@ public class StateManager : MonoBehaviour
     private bool onGround;
     private bool lockOn;
 
+    public AudioSource slash;
+
     [HideInInspector]
     public Animator anim;
 
@@ -127,6 +129,7 @@ public class StateManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && Time.time > nextAttack)
         {
+            StartCoroutine("playSound");
             Attack = true;
             Sword.enabled = true;
             nextAttack = Time.time + attackSpeed;

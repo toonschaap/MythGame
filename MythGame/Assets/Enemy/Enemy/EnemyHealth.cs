@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public AudioSource hit;
     public int HealthCounter;
 
     // Update is called once per frame
@@ -21,6 +22,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerWeapon")
         {
+            hit.Play();
             Debug.Log("Enemy hit");
             HealthCounter--;
         }
