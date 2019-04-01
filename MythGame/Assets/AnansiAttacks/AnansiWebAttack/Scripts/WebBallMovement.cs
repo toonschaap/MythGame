@@ -21,7 +21,7 @@ public class WebBallMovement : MonoBehaviour
 
     public void InverseMovement()
     {
-        movement = new Vector3(transform.position.x * DeflectMovement, 0, 0);
+        movement = new Vector3(transform.position.z * DeflectMovement, 0, 0);
     }
 
 }
