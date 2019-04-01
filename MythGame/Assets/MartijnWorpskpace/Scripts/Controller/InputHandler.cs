@@ -46,7 +46,6 @@ public class InputHandler : MonoBehaviour
         if (keys)
         {
             {
-                walk.Play();
                 walk.loop = true;
             }
         }

@@ -648,6 +648,7 @@ MonoBehaviour:
   SecondCamera: {fileID: 331373842}
   pivot: {fileID: 0}
   camTrans: {fileID: 0}
+  bossfight: 0
 --- !u!1 &440720974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,6 +1232,7 @@ MonoBehaviour:
   SecondCamera: {fileID: 331373842}
   pivot: {fileID: 0}
   camTrans: {fileID: 0}
+  bossfight: 0
 --- !u!4 &624365491
 Transform:
   m_ObjectHideFlags: 0
@@ -1388,6 +1390,11 @@ PrefabInstance:
       propertyPath: dealDamage
       value: 
       objectReference: {fileID: 1204980821}
+    - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: hit
+      value: 
+      objectReference: {fileID: 1204980821}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3b3a74a446bbea4383ff3da31869593, type: 3}
 --- !u!1 &831053960 stripped
@@ -1504,7 +1511,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 0.3870967, b: 0, a: 1}
+  m_Color: {r: 0.3773585, g: 0.1465039, b: 0, a: 1}
   m_Intensity: 5
   m_Range: 12.740041
   m_SpotAngle: 72
@@ -1596,6 +1603,7 @@ MonoBehaviour:
   ignoreLayers:
     serializedVersion: 2
     m_Bits: 0
+  attackSpeed: 1
 --- !u!114 &927444764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1608,6 +1616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf20bf3daf13c34f918fe4d4ee1b615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walk: {fileID: 957694960}
+  run: {fileID: 504838593}
 --- !u!54 &927444765
 Rigidbody:
   m_ObjectHideFlags: 0

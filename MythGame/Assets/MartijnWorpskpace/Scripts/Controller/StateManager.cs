@@ -127,7 +127,7 @@ public class StateManager : MonoBehaviour
     [SerializeField]
     private float attackSpeed = 1f;
 
-    private float nextAttack = 0.0f;
+    private float nextAttack = 1f;
 
     private void Update()
     {
@@ -192,7 +192,6 @@ public class StateManager : MonoBehaviour
         anim.SetFloat("vertical", moveAmount, 0.03f, delta);
         anim.SetBool("Attack", Attack);
     }
-
 
     //Grounded
     public bool OnGround()

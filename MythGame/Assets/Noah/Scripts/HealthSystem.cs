@@ -25,15 +25,6 @@ public class HealthSystem : MonoBehaviour
     public List<GameObject> hearts = new List<GameObject>();
     public List<Renderer> playerRenderers = new List<Renderer>();
 
-    public Animation bloodBorder;
-
-
-    //Start is called before the first frame update
-    private void Start()
-    {
-        bloodBorder.gameObject.GetComponent<Animation>();
-    }
-
     // Update is called once per frame
     private void FixedUpdate()
     {
@@ -113,7 +104,7 @@ public class HealthSystem : MonoBehaviour
 
     private IEnumerator BlinkEffect()
     {
-        for(int i = 0; i < loopTime; i++)
+        for (int i = 0; i < loopTime; i++)
         {
             playerRenderers[0].enabled = false;
             playerRenderers[1].enabled = false;
