@@ -52,9 +52,4 @@ public class PlayerAttack : MonoBehaviour
             yield return null;
         }
     }
-
-    private void OnTriggerEnter(Collider AttackCol)
-    {
-        //Debug.Log("hit!");
-    }
 }
