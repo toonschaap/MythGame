@@ -83,7 +83,7 @@ public class HealthSystem : MonoBehaviour
 
     private void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "EnemyWeapon")
+        if (col.gameObject.tag == "EnemyWeapon" || col.gameObject.tag == "projectile")
         {
             LoseLife();
         }
