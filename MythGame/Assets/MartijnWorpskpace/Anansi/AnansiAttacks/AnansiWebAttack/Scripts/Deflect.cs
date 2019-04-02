@@ -12,7 +12,7 @@ public class Deflect : MonoBehaviour
 
     }
 
-    public void OnTriggerEnter(Collider collision)
+    public void OnTriggerStay(Collider collision)
     {
 
         if (collision.gameObject.tag == "projectile")

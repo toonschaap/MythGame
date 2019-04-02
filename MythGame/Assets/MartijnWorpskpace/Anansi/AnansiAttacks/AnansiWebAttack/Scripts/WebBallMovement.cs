@@ -21,6 +21,7 @@ public class WebBallMovement : MonoBehaviour
 
     public void InverseMovement()
     {
+        Debug.Log("kom vechten dan");
         movement = new Vector3(transform.position.z * DeflectMovement, 0, 0);
     }
 
