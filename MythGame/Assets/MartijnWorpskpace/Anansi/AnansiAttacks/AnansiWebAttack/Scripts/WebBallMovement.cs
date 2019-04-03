@@ -8,33 +8,25 @@ public class WebBallMovement : MonoBehaviour
     Vector3 movement;
     public float DeflectMovement;
 
-    public void Start()
-    {
-        movement = transform.forward;
-    }
-    void Update()
-    {
-        
-
-    }
-
     public IEnumerator InverseMovement()
     {
         GetComponent<NormalWebMove>().enabled = false;
-        int interpolate = 0;
+        float interpolate = 0;
         while(interpolate < 100)
         {
             transform.position = Vector3.MoveTowards(transform.position, Deflecttarget.transform.position, interpolate);
-            interpolate++;
+            interpolate += DeflectMovement * Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if(collision.gameObject.tag == "EnemyHitBox")
         {
-            GameObject.Destroy(gameObject);
+            Destroy(this.gameObject);
         }
     }
+
+    
 }
