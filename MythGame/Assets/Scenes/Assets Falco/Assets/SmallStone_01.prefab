@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7238971637426793361}
   - component: {fileID: 5340518553983175970}
   - component: {fileID: 1567384185231501718}
-  - component: {fileID: 6042820227736333844}
   m_Layer: 0
   m_Name: SmallStone_01
   m_TagString: Untagged
@@ -26,9 +25,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4136871601022962865}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.44702855, y: 0.44702855, z: 0.44702855}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5852, y: -0.89604, z: -0.39393}
+  m_LocalScale: {x: 2.1955194, y: 2.1955194, z: 2.1955194}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,17 +77,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6042820227736333844
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4136871601022962865}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 140ce5d7425510842b78e06d7ea42124, type: 3}
