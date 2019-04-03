@@ -5,7 +5,6 @@ using UnityEngine;
 public class WebBallMovement : MonoBehaviour
 {
     public GameObject Deflecttarget;
-    public float Speed;
     Vector3 movement;
     public float DeflectMovement;
 
