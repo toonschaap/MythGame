@@ -9,6 +9,7 @@ TagManager:
   - Weapon
   - PlayerWeapon
   - projectile
+  - Anansi
   layers:
   - Default
   - TransparentFX

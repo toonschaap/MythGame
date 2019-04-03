@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WebBallMovement : MonoBehaviour
 {
-
+    public GameObject Deflecttarget;
     public float Speed;
     Vector3 movement;
     public float DeflectMovement;
@@ -15,14 +15,27 @@ public class WebBallMovement : MonoBehaviour
     }
     void Update()
     {
-        transform.position += movement * Speed * Time.deltaTime;
+        
 
     }
 
-    public void InverseMovement()
+    public IEnumerator InverseMovement()
     {
-        Debug.Log("kom vechten dan");
-        movement = new Vector3(transform.position.z * DeflectMovement, 0, 0);
+        GetComponent<NormalWebMove>().enabled = false;
+        int interpolate = 0;
+        while(interpolate < 100)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, Deflecttarget.transform.position, interpolate);
+            interpolate++;
+            yield return new WaitForFixedUpdate();
+        }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Enemy")
+        {
+            GameObject.Destroy(gameObject);
+        }
+    }
 }
