@@ -7,14 +7,17 @@ public class BossRockAttack : MonoBehaviour
 {
     [SerializeField]
     private GameObject Rock;
-   
+
+    [SerializeField]
+    private GameObject player;
+
     [SerializeField]
     private float spawnThreshold = 100f;
     private float spawnTimer;
 
     private bool SlamAttack = false;
 
-
+  
 
     private void Update()
     {
@@ -36,8 +39,13 @@ public class BossRockAttack : MonoBehaviour
 
     private void RockAttack()
     {
-        Vector3 spawnPosition = new Vector3(UnityEngine.Random.Range(-4.0f, 3.5f), 15, -8);
-        Instantiate(Rock, spawnPosition, Quaternion.identity);     
+        Vector3 playerPos = player.transform.position;
+        Vector3 playerDirection = player.transform.up;
+        float height = 40;
+
+        Vector3 spawnPos = playerPos + playerDirection * height;
+
+        Instantiate(Rock, spawnPos, Quaternion.identity);     
         StopCoroutine("StartSlamAnimation");
         StartCoroutine("StartSlam");
    
