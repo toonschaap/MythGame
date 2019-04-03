@@ -22,10 +22,7 @@ public class DestroyRocks : MonoBehaviour
         { 
             Destroy(other.gameObject);
         }
-        if (other.gameObject.tag == "Player" && this.gameObject.tag == "Rock")
-        {
-            Destroy(other.gameObject);
-        }
+        
     }
    
 }
