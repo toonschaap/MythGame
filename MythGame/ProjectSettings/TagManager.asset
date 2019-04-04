@@ -10,6 +10,9 @@ TagManager:
   - PlayerWeapon
   - projectile
   - Anansi
+  - Rock
+  - EnemyHitBox
+  - PlayerHitBox
   layers:
   - Default
   - TransparentFX

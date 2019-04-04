@@ -20,10 +20,11 @@ public class WebBallMovement : MonoBehaviour
         }
     }
 
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter(Collider collision)
     {
-        if(collision.gameObject.tag == "EnemyHitBox")
+        if(collision.gameObject.tag == "EnemyHitBox" || collision.gameObject.tag == "PlayerHitBox")
         {
+            Debug.Log("Web destroyed");
             Destroy(this.gameObject);
         }
     }

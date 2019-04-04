@@ -14,6 +14,6 @@ public class NormalWebMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, targ.transform.position, 3 * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, targ.transform.position, 9 * Time.deltaTime);
     }
 }
