@@ -132,7 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Rock: {fileID: 9149220793037863792, guid: 24a303efdc356d5439c2aec51434d240, type: 3}
   player: {fileID: 348451405}
-  spawnThreshold: 1
+  spawnThreshold: 3
 --- !u!1 &285174366
 GameObject:
   m_ObjectHideFlags: 0
