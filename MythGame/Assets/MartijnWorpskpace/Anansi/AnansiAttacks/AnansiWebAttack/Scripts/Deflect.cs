@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Deflect : MonoBehaviour
 {
-    
-    
+
+
     void Update()
     {
 
@@ -18,7 +18,7 @@ public class Deflect : MonoBehaviour
         if (collision.gameObject.tag == "projectile")
         {
             GameObject finder = collision.gameObject;
-            finder.GetComponent<WebBallMovement>().InverseMovement();
+            finder.GetComponent<WebBallMovement>().StartCoroutine("InverseMovement");
             Debug.Log("collide");
         }
     }

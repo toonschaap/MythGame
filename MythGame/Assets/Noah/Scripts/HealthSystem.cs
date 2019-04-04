@@ -89,6 +89,14 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (this.gameObject.tag == "Player" && other.gameObject.tag == "Rock")
+        {
+            LoseLife();
+        }
+    }
+
     private IEnumerator Dying()
     {
         yield return new WaitForSeconds(3f);

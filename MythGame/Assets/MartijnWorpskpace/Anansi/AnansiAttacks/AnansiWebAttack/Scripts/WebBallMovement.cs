@@ -4,25 +4,29 @@ using UnityEngine;
 
 public class WebBallMovement : MonoBehaviour
 {
-
-    public float Speed;
+    public GameObject Deflecttarget;
     Vector3 movement;
     public float DeflectMovement;
 
-    public void Start()
+    public IEnumerator InverseMovement()
     {
-        movement = transform.forward;
-    }
-    void Update()
-    {
-        transform.position += movement * Speed * Time.deltaTime;
-
-    }
-
-    public void InverseMovement()
-    {
-        Debug.Log("kom vechten dan");
-        movement = new Vector3(transform.position.z * DeflectMovement, 0, 0);
+        GetComponent<NormalWebMove>().enabled = false;
+        float interpolate = 0;
+        while(interpolate < 100)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, Deflecttarget.transform.position, interpolate);
+            interpolate += DeflectMovement * Time.deltaTime;
+            yield return new WaitForFixedUpdate();
+        }
     }
 
+    public void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "EnemyHitBox")
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    
 }
