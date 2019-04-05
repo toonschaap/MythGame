@@ -30,12 +30,14 @@ public class Menu : MonoBehaviour
             MenuList.SetActive(true);
             menuInt++;
             Time.timeScale = 0;
+            Cursor.lockState = CursorLockMode.None;
         }
         if (menuInt == 2)
         {
             MenuList.SetActive(false);
             menuInt = 0;
             Time.timeScale = 1;
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 
