@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: 
+    path:
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: 
+    path:
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/MartijnWorpskpace/Menu Scenes/IntroScene.unity
@@ -24,9 +24,12 @@ EditorBuildSettings:
     path: Assets/MartijnWorpskpace/_Scenes/BoosRoom.unity
     guid: 4a7feb64ede717942b437b8052fdaf0e
   - enabled: 1
-    path: Assets/MartijnWorpskpace/Menu Scenes/LoseScene.unity
-    guid: cdf5212e720f2a34baab67878615a02b
+    path: Assets/MartijnWorpskpace/Menu Scenes/IntroScene.unity
+    guid: 0e27f241d97a7f946855385ee70c8c38
   - enabled: 1
     path: Assets/MartijnWorpskpace/Menu Scenes/WinScene.unity
     guid: 5b264ce082e943545a3ce308b0ccf17e
+  - enabled: 1
+    path: Assets/MartijnWorpskpace/Menu Scenes/LoseScene.unity
+    guid: cdf5212e720f2a34baab67878615a02b
   m_configObjects: {}

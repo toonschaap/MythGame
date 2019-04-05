@@ -24,7 +24,7 @@ public class WebBallMovement : MonoBehaviour
     {
         if(collision.gameObject.tag == "EnemyHitBox" || collision.gameObject.tag == "PlayerHitBox")
         {
-            Debug.Log("Web destroyed");
+            
             Destroy(this.gameObject);
         }
     }
