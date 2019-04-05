@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
@@ -15,7 +16,10 @@ public class BossHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (BossHp == 0)
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 
     public void OnCollisionEnter(Collision collision)//Damage to boss when web is deflected
@@ -25,5 +29,6 @@ public class BossHealth : MonoBehaviour
             BossHp= BossHp -1;
             Debug.Log("Boss has taken damage");
         }
+        
     }
 }

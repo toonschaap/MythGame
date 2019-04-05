@@ -100,7 +100,7 @@ public class HealthSystem : MonoBehaviour
     private IEnumerator Dying()
     {
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Deathscreen");
+        SceneManager.LoadScene("LoseScene");
     }
 
     private IEnumerator AttackPause()

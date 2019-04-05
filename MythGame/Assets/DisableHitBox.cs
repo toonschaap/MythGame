@@ -2,27 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActivateDeflect : MonoBehaviour
+public class DisableHitBox : MonoBehaviour
 {
-    public Collider Deflectbox;
-
-     void Start()
+    public Collider HitBox;
+    // Start is called before the first frame update
+    void Start()
     {
-        Deflectbox.enabled = false;
+        
     }
+
     // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Deflectbox.enabled = true;
-
+            HitBox.enabled = false;
+            Debug.Log("Hitbox off");
         }
         else
         {
-            Deflectbox.enabled = false;
+            HitBox.enabled = true;
         }
-        
+
     }
 }
-
