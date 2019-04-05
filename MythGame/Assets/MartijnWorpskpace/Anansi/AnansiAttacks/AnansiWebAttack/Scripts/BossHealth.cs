@@ -10,7 +10,7 @@ public class BossHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BossHp = 5;    
+        BossHp = 3;    
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class BossHealth : MonoBehaviour
     {
         if (collision.gameObject.tag == "projectile")
         {
-            BossHp= BossHp -1;
+            BossHp = BossHp --;
             Debug.Log("Boss has taken damage");
         }
         
