@@ -734,19 +734,6 @@ MonoBehaviour:
   Rock: {fileID: 9149220793037863792, guid: 24a303efdc356d5439c2aec51434d240, type: 3}
   player: {fileID: 348451405}
   spawnThreshold: 1
---- !u!114 &264411804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 264411802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac03b96e96dcf9542b17a964b88f3671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BossHp: 3
 --- !u!54 &264411805
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4919,6 +4906,7 @@ GameObject:
   - component: {fileID: 1112114018}
   - component: {fileID: 1112114019}
   - component: {fileID: 1112114020}
+  - component: {fileID: 1112114021}
   m_Layer: 0
   m_Name: Hitbox
   m_TagString: EnemyHitBox
@@ -4969,6 +4957,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1112114021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112114017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac03b96e96dcf9542b17a964b88f3671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BossHp: 3
 --- !u!1001 &1122015256
 PrefabInstance:
   m_ObjectHideFlags: 0

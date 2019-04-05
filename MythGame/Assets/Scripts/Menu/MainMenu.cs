@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         StartButton.onClick.AddListener(StartOnClick);
-        ExitButton.onClick.AddListener(ExitOnClick);
+       // ExitButton.onClick.AddListener(ExitOnClick);
         
     }
 
@@ -29,10 +29,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("PlayerMovement");
     }
 
-    void ExitOnClick()
-    {
-        UnityEditor.EditorApplication.isPlaying = false;
-    }
+ //   void ExitOnClick()
+  //  {
+   //     UnityEditor.EditorApplication.isPlaying = false;
+  //  }
 
 
 }
