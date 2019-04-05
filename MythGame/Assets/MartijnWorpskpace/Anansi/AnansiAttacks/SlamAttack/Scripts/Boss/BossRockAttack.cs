@@ -14,9 +14,11 @@ public class BossRockAttack : MonoBehaviour
     [SerializeField]
     private float spawnThreshold = 100f;
     private float spawnTimer;
+    [SerializeField]
+    private Animation anim;
 
     private bool SlamAttack = false;
-
+    
   
 
     private void Update()
@@ -54,13 +56,15 @@ public class BossRockAttack : MonoBehaviour
 
     IEnumerator StartSlamAnimation()
     {
-        yield return new WaitForSeconds(5);
+        Debug.Log("animation slam");
+        yield return new WaitForSeconds(1);
+        anim.Play("anim");
         SlamAttack = true;     
     }
 
     IEnumerator StartSlam()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         SlamAttack = false;
     }
 

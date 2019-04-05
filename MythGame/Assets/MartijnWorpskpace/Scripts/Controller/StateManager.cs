@@ -66,7 +66,7 @@ public class StateManager : MonoBehaviour
         gameObject.layer = 8;
         ignoreLayers = ~(1 << 10);
     }
-
+ 
     //Animator
     private void SetupAnimator()
     {
