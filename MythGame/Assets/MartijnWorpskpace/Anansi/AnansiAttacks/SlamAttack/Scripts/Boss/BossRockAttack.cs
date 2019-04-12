@@ -14,15 +14,53 @@ public class BossRockAttack : MonoBehaviour
     [SerializeField]
     private float spawnThreshold = 100f;
     private float spawnTimer;
-    [SerializeField]
-    private Animation anim;
+    private bool RockAttack;
+
+    [HideInInspector]
+    public Animator anim;
+
+    public GameObject activeModel;
 
     private bool SlamAttack = false;
-    
-  
+
+
+
+
+    private void Start()
+    {
+        SetupAnimator();
+    }
+
+
+    private void SetupAnimator()
+    {
+        if (activeModel == null)
+        {
+            anim = activeModel.GetComponent<Animator>();
+            if (anim == null)
+            {
+                Debug.Log("no model found");
+            }
+            else
+            {
+                activeModel = anim.gameObject;
+            }
+        }
+
+        anim = GetComponentInChildren<Animator>();
+    }
+        private void HandleMovementAnimations()
+    {
+        anim.SetBool("RockAttack", RockAttack);
+    }
+
+
+
+
 
     private void Update()
     {
+        HandleMovementAnimations();
 
         // START SLAM ANIMATION HERE
 
@@ -32,14 +70,14 @@ public class BossRockAttack : MonoBehaviour
         {
             if (spawnTimer >= spawnThreshold)
             {
-                RockAttack();
+                Rockattack();
                 spawnTimer = 0;
             }
         }
 
     }
 
-    private void RockAttack()
+    private void Rockattack()
     {
         Vector3 playerPos = player.transform.position;
         Vector3 playerDirection = player.transform.up;
@@ -57,15 +95,18 @@ public class BossRockAttack : MonoBehaviour
     IEnumerator StartSlamAnimation()
     {
         Debug.Log("animation slam");
-        yield return new WaitForSeconds(1);
-        anim.Play("anim");
+        yield return new WaitForSeconds(5);
+        RockAttack = true;
         SlamAttack = true;     
     }
 
     IEnumerator StartSlam()
     {
-        yield return new WaitForSeconds(1);
+        
+        yield return new WaitForSeconds(5);
+        RockAttack = false;
         SlamAttack = false;
+        
     }
 
 

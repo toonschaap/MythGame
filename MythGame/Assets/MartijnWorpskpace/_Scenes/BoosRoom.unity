@@ -734,7 +734,7 @@ MonoBehaviour:
   Rock: {fileID: 9149220793037863792, guid: 24a303efdc356d5439c2aec51434d240, type: 3}
   player: {fileID: 348451405}
   spawnThreshold: 1
-  anim: {fileID: 0}
+  anim: {fileID: 1495671031}
 --- !u!54 &264411805
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7704,6 +7704,12 @@ PrefabInstance:
 --- !u!4 &1495671030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: b770a5713dbb01e45b506def7a80d3f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1495671029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1495671031 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: b770a5713dbb01e45b506def7a80d3f7,
     type: 3}
   m_PrefabInstance: {fileID: 1495671029}
   m_PrefabAsset: {fileID: 0}
