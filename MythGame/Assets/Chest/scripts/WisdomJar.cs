@@ -2,26 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WisdomPickUp : MonoBehaviour
+public class WisdomJar : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-               GameObject Finder = GameObject.FindWithTag("Player");
-        Finder.GetComponent<WisdomCounter>().IncreaseWisdomBottle();
+            GameObject Finder = GameObject.FindWithTag("Player");
+            Finder.GetComponent<WisdomCounter>().IncreaseWisdomJar();
             Destroy(this.gameObject);
         }
     }

@@ -35,4 +35,13 @@ public class WisdomCounter : MonoBehaviour
         Wisdom = Wisdom += 10;
     }
 
+    public void IncreaseWisdomBottle()
+    {
+        Wisdom = Wisdom += 1;
+    }
+
+    public void IncreaseWisdomJar()
+    {
+        Wisdom = Wisdom += 5;
+    }
 }
