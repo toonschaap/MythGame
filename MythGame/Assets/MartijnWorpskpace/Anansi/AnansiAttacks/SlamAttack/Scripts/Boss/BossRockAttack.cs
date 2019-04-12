@@ -47,7 +47,7 @@ public class BossRockAttack : MonoBehaviour
             }
         }
 
-        anim = GetComponentInChildren<Animator>();
+        anim = activeModel.GetComponent<Animator>();
     }
         private void HandleMovementAnimations()
     {
@@ -62,7 +62,7 @@ public class BossRockAttack : MonoBehaviour
     {
         HandleMovementAnimations();
 
-        // START SLAM ANIMATION HERE
+        
 
         StartCoroutine("StartSlamAnimation");
         spawnTimer += 0.01f;
@@ -94,7 +94,7 @@ public class BossRockAttack : MonoBehaviour
 
     IEnumerator StartSlamAnimation()
     {
-        Debug.Log("animation slam");
+        
         yield return new WaitForSeconds(5);
         RockAttack = true;
         SlamAttack = true;     

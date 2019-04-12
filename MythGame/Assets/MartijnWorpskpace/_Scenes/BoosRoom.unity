@@ -735,6 +735,7 @@ MonoBehaviour:
   player: {fileID: 348451405}
   spawnThreshold: 1
   anim: {fileID: 1495671031}
+  activeModel: {fileID: 264411802}
 --- !u!54 &264411805
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5287,7 +5288,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Projectile: {fileID: 109494871}
-  firerate: 5
+  firerate: 3
+  anim: {fileID: 0}
+  activeModel: {fileID: 264411802}
 --- !u!1001 &1235470511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7625,7 +7628,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: b770a5713dbb01e45b506def7a80d3f7, type: 3}
       propertyPath: m_Name
-      value: Anansi_Idle
+      value: Anansi
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: b770a5713dbb01e45b506def7a80d3f7, type: 3}
       propertyPath: m_TagString
