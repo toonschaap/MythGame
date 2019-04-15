@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 908982229532499012}
   - component: {fileID: 908982229532499019}
   m_Layer: 0
-  m_Name: glowshroom (9)
+  m_Name: glowshroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,7 +91,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 08123a0a1c7d0a54a86c9e770e7bef61, type: 3}
 --- !u!122 &908982229532499019

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3308285375185400993}
   - component: {fileID: 7523670280643313303}
   - component: {fileID: 8234824511514436886}
+  - component: {fileID: 7389043614581329708}
   m_Layer: 0
   m_Name: SmallStone_02
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7389043614581329708
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2896217102888783028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 6cf800a856cd00f4d942c42dbf507f9a, type: 3}
