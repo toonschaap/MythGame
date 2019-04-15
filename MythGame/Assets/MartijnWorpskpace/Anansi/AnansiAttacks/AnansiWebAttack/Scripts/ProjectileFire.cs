@@ -13,7 +13,7 @@ public class ProjectileFire : MonoBehaviour
     private bool WebAttack;
 
     private bool canShoot = true;
-
+    public AudioSource shootSound;
 
     public GameObject activeModel;
     // Start is called before the first frame update
@@ -69,6 +69,7 @@ public class ProjectileFire : MonoBehaviour
         yield return new WaitForSeconds(firerate);
         canShoot = true;
         WebAttack = false;
+        shootSound.Play();
         Bullet = Instantiate(Projectile, transform.position, Quaternion.identity) as GameObject;
     }
 }

@@ -6,6 +6,7 @@ public class StandardChestOpening : MonoBehaviour
 {
     public int WisdomInChest;
     public bool ChestOpen;
+    public AudioSource openingSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class StandardChestOpening : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             GiveWisdom();
+            openingSound.Play();
             StartCoroutine("ChestAnimation");
  
         }
