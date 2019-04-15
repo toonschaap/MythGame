@@ -23,6 +23,7 @@ public class BossRockAttack : MonoBehaviour
 
     private bool SlamAttack = false;
 
+    public AudioSource SlamSound;
 
 
 
@@ -65,6 +66,8 @@ public class BossRockAttack : MonoBehaviour
         
 
         StartCoroutine("StartSlamAnimation");
+        
+
         spawnTimer += 0.01f;
         if (SlamAttack == true)
         {
@@ -96,6 +99,7 @@ public class BossRockAttack : MonoBehaviour
     {
         
         yield return new WaitForSeconds(5);
+        
         RockAttack = true;
         SlamAttack = true;     
     }

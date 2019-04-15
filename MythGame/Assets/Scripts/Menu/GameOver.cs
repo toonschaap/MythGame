@@ -25,7 +25,7 @@ public class GameOver : MonoBehaviour
 
     void StartOnClick()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("PlayerMovement");
     }
 
     void ExitOnClick()
