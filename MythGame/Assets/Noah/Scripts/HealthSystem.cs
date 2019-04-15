@@ -59,7 +59,7 @@ public class HealthSystem : MonoBehaviour
             StartCoroutine("AttackPause");
             StartCoroutine("BlinkEffect");
             lives--;
-            Debug.Log("-health");
+
         }
     }
 

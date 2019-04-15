@@ -83,18 +83,7 @@ public class CameraManager : MonoBehaviour
         HandleRotations(d, v, h, targetSpeed);
     }
 
-    /*private void OnCollisionEnter(Collision collision)
-    {
-        MainCamera.SetActive(false);
-        SecondCamera.SetActive(true);
-    }
 
-    private void OnCollisionExit(Collision collision)
-    {
-        MainCamera.SetActive(true);
-        SecondCamera.SetActive(false);
-    }
-    */
 
     public void FollowTarget(float d)
     {

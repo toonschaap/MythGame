@@ -4544,6 +4544,11 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 84
       objectReference: {fileID: 0}
+    - target: {fileID: 3086527824023646485, guid: 0647a078aef6e42438ebe1e662e142ac,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0647a078aef6e42438ebe1e662e142ac, type: 3}
 --- !u!1001 &1018875462

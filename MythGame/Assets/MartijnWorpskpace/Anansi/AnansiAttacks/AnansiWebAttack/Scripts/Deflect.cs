@@ -6,12 +6,6 @@ public class Deflect : MonoBehaviour
 {
 
 
-    void Update()
-    {
-
-
-    }
-
     public void OnTriggerStay(Collider collision)
     {
 
@@ -19,7 +13,7 @@ public class Deflect : MonoBehaviour
         {
             GameObject finder = collision.gameObject;
             finder.GetComponent<WebBallMovement>().StartCoroutine("InverseMovement");
-            Debug.Log("collide");
+            
         }
     }
 }

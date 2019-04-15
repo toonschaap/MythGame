@@ -59,7 +59,7 @@ public class InputHandler : MonoBehaviour
         if (shift && Input.GetKey("w") || shift && Input.GetKey("s") || shift && Input.GetKey("a") || shift && Input.GetKey("d"))
         {
             isWalking = false;
-            Debug.Log("run");
+            
             run.Play();
             run.loop = true;
         }
