@@ -6,13 +6,12 @@ public class PlayerAttack : MonoBehaviour
     private bool Attack;
 
     [HideInInspector]
-    public Animator anim;
+    private Animator anim;
 
     [SerializeField]
     private float attackSpeed = 1f;
-
     private float nextAttack = 0.0f;
-
+    
     [SerializeField]
     private BoxCollider Sword;
 

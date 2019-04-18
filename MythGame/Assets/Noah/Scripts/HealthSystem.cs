@@ -8,22 +8,21 @@ public class HealthSystem : MonoBehaviour
 {
     public Animator anim;
 
+    public AudioSource takeDamage;
+
     [SerializeField]
     private CapsuleCollider PlayerCollider;
+    [SerializeField]
+    private GameObject Player;
+    public List<Renderer> playerRenderers = new List<Renderer>();
 
     private int lives = 3;
     private int loopTime = 5;
 
-    public AudioSource takeDamage;
-
     private bool Death;
     private bool canLoseLife = true;
 
-    [SerializeField]
-    private GameObject Player;
-
     public List<GameObject> hearts = new List<GameObject>();
-    public List<Renderer> playerRenderers = new List<Renderer>();
 
     public void LoseLife()
     {
@@ -48,12 +47,8 @@ public class HealthSystem : MonoBehaviour
             if (lives == 0)
             {
                 hearts[2].SetActive(false);
-            }
-
-            if (lives == 0)
-            {
-                StartCoroutine("Dying");
                 Anims();
+                StartCoroutine("Dying");
                 Death = true;
                 PlayerCollider.enabled = false;
             }
