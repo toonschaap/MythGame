@@ -37,22 +37,17 @@ public class CameraManager : MonoBehaviour
         SecondCamera.SetActive(false);
     }
 
-    private void Update()
-    {
-        if (!bossfight)
-        {
-            SecondCamera.SetActive(true);
-        }
-        else
-        {
-            MainCamera.SetActive(true);
-        }
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            transform.LookAt(target);
-        }
-    }
+    //private void update()
+    //{
+    //    if (!bossfight)
+    //    {
+    //        SecondCamera.SetActive(true);
+    //    }
+    //    else
+    //    {
+    //        MainCamera.SetActive(true);
+    //    }
+    //}
 
     public void Init(Transform t)
     {
@@ -104,9 +99,6 @@ public class CameraManager : MonoBehaviour
         {
             smoothX = h;
             smoothY = v;
-        }
-        if (lockon)
-        {
         }
 
         lookAngle += smoothX * targetSpeed;

@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
-    public int BossHp;
+   [SerializeField]
+    private int BossHp;
 
     // Start is called before the first frame update
     void Start()
