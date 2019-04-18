@@ -6,24 +6,26 @@ using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
-    public Animator anim;
+    [SerializeField]
+    private Animator anim;
 
     [SerializeField]
     private CapsuleCollider PlayerCollider;
 
     private int lives = 3;
     private int loopTime = 5;
-
-    public AudioSource takeDamage;
+    [SerializeField]
+    private AudioSource takeDamage;
 
     private bool Death;
     private bool canLoseLife = true;
 
     [SerializeField]
     private GameObject Player;
-
-    public List<GameObject> hearts = new List<GameObject>();
-    public List<Renderer> playerRenderers = new List<Renderer>();
+    [SerializeField]
+    private List<GameObject> hearts = new List<GameObject>();
+    [SerializeField]
+    private List<Renderer> playerRenderers = new List<Renderer>();
 
     public void LoseLife()
     {
@@ -80,7 +82,9 @@ public class HealthSystem : MonoBehaviour
 
     private IEnumerator Dying()
     {
-        yield return new WaitForSeconds(3f);
+        anim.Play("Death");
+        yield return new WaitForSeconds(2f);
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene("LoseScene");
     }
 
