@@ -37,17 +37,17 @@ public class CameraManager : MonoBehaviour
         SecondCamera.SetActive(false);
     }
 
-    private void update()
-    {
-        if (!bossfight)
-        {
-            SecondCamera.SetActive(true);
-        }
-        else
-        {
-            MainCamera.SetActive(true);
-        }
-    }
+    //private void update()
+    //{
+    //    if (!bossfight)
+    //    {
+    //        SecondCamera.SetActive(true);
+    //    }
+    //    else
+    //    {
+    //        MainCamera.SetActive(true);
+    //    }
+    //}
 
     public void Init(Transform t)
     {

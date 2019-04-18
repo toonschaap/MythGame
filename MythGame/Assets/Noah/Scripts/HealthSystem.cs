@@ -48,12 +48,8 @@ public class HealthSystem : MonoBehaviour
             if (lives == 0)
             {
                 hearts[2].SetActive(false);
-            }
-
-            if (lives == 0)
-            {
-                StartCoroutine("Dying");
                 Anims();
+                StartCoroutine("Dying");
                 Death = true;
                 PlayerCollider.enabled = false;
             }
