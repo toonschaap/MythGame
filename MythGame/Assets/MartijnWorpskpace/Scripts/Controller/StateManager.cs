@@ -23,10 +23,7 @@ public class StateManager : MonoBehaviour
     [SerializeField]
     private BoxCollider Sword;
 
-    public AudioSource walkSound;
-    public AudioSource runSound;
     public AudioSource slash;
-    private bool isWalking = true;
 
     [Header("States")]
     public bool run;
@@ -128,55 +125,6 @@ public class StateManager : MonoBehaviour
     private float attackSpeed = 1f;
 
     private float nextAttack = 1f;
-
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0) && Time.time > nextAttack)
-        {
-            StartCoroutine("PlaySound");
-            Attack = true;
-            Sword.enabled = true;
-            nextAttack = Time.time + attackSpeed;
-        }
-        else
-        {
-            Attack = false;
-            Sword.enabled = false;
-        }
-
-        bool shift = Input.GetKeyDown(KeyCode.LeftShift);
-        bool keys = Input.GetKeyDown("w") || Input.GetKeyDown("s") || Input.GetKeyDown("a") || Input.GetKeyDown("d");
-
-        if (keys)
-        {
-            {
-                walkSound.Play();
-                walkSound.loop = true;
-            }
-        }
-
-        if (Input.GetKeyUp("w") || Input.GetKeyUp("s") || Input.GetKeyUp("a") || Input.GetKeyUp("d") || shift)
-        {
-            isWalking = false;
-            walkSound.Stop();
-        }
-
-        if (shift && Input.GetKey("w") || shift && Input.GetKey("s") || shift && Input.GetKey("a") || shift && Input.GetKey("d"))
-        {
-            isWalking = false;
-            Debug.Log("run");
-            runSound.Play();
-            runSound.loop = true;
-        }
-
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            walkSound.Play();
-            walkSound.loop = true;
-            runSound.Stop();
-            isWalking = true;
-        }
-    }
 
     private IEnumerator PlaySound()
     {
