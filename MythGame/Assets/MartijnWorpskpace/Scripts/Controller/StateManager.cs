@@ -8,14 +8,13 @@ public class StateManager : MonoBehaviour
 
     [Header("Inputs")]
     public float horizontal;
-
     public float vertical;
     public float moveAmount;
+
     public Vector3 moveDir;
 
     [Header("Stats")]
     private float moveSpeed = 4;
-
     private float runSpeed = 8f;
     private float rotateSpeed = 5;
     private float toGround = 0.5f;
@@ -27,32 +26,39 @@ public class StateManager : MonoBehaviour
 
     [Header("States")]
     public bool run;
-
     public bool walk;
-
     private bool Attack;
     private bool onGround;
     private bool lockOn;
 
-    [HideInInspector]
-    public Animator anim;
-
-    [HideInInspector]
-    public Rigidbody rb;
-
-    [HideInInspector]
-    public float delta;
-
-    [HideInInspector]
-    public LayerMask ignoreLayers;
+    private Animator anim;
+    private Rigidbody rb;
+    private float delta;
+    private LayerMask ignoreLayers;
 
     public void Start()
     {
         Sword.enabled = false;
     }
 
-    //rigid body setup
-    public void Init()
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && Time.time > nextAttack)
+        {
+            Attack = true;
+            Sword.enabled = true;
+            nextAttack = Time.time + attackSpeed;
+            StartCoroutine("PlaySound");
+        }
+        else
+        {
+            Attack = false;
+            Sword.enabled = false;
+        }
+    }
+
+        //rigid body setup
+        public void Init()
     {
         SetupAnimator();
         rb = GetComponent<Rigidbody>();
