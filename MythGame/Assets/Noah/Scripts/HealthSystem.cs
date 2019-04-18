@@ -9,8 +9,13 @@ public class HealthSystem : MonoBehaviour
     [SerializeField]
     private Animator anim;
 
+    public AudioSource takeDamage;
+
     [SerializeField]
     private CapsuleCollider PlayerCollider;
+    [SerializeField]
+    private GameObject Player;
+    public List<Renderer> playerRenderers = new List<Renderer>();
 
     private int lives = 3;
     private int loopTime = 5;
