@@ -28,7 +28,7 @@ public class BossHealth : MonoBehaviour
         if (collision.gameObject.tag == "projectile")
         {
             BossHp = BossHp --;
-            Debug.Log("Boss has taken damage");
+            Debug.Log(BossHp);
         }
         
     }
