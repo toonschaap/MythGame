@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -732,9 +732,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rock: {fileID: 9149220793037863792, guid: 24a303efdc356d5439c2aec51434d240, type: 3}
-  player: {fileID: 348451405}
-  spawnThreshold: 1
-  anim: {fileID: 1495671031}
+  player: {fileID: 1417394487}
+  spawnThreshold: 10
+  anim: {fileID: 0}
   activeModel: {fileID: 264411802}
   SlamSound: {fileID: 0}
 --- !u!54 &264411805
@@ -6707,6 +6707,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1399867050}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1417394487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3086527824265829432, guid: 0647a078aef6e42438ebe1e662e142ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1008517728}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1427545113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7861,12 +7867,6 @@ PrefabInstance:
 --- !u!4 &1495671030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: b770a5713dbb01e45b506def7a80d3f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1495671029}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1495671031 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 9500000, guid: b770a5713dbb01e45b506def7a80d3f7,
     type: 3}
   m_PrefabInstance: {fileID: 1495671029}
   m_PrefabAsset: {fileID: 0}
