@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WisdomJar : MonoBehaviour
+public class WisdomBottle : MonoBehaviour
 {
     [SerializeField]
     private AudioSource Opening;
@@ -12,7 +12,7 @@ public class WisdomJar : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             GameObject Finder = GameObject.FindWithTag("Player");
-            Finder.GetComponent<ScoreCounter>().PointsObject2();
+            Finder.GetComponent<ScoreCounter>().PointsObject1();
             Opening.Play();
             Destroy(this.gameObject);
         }

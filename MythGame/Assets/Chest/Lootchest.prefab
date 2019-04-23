@@ -89,11 +89,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1761026464332974190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b6d61b8a544b094ead62990436baf76, type: 3}
+  m_Script: {fileID: 11500000, guid: 4fd0d9a52e6f3bd4e90913aae60bcd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WisdomInChest: 30
-  ChestOpen: 0
+  Open: 0
+  openingSound: {fileID: 0}
 --- !u!1 &1761026464777937723
 GameObject:
   m_ObjectHideFlags: 0

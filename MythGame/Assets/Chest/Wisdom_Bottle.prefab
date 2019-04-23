@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3369312863757987941}
   m_Layer: 0
   m_Name: Wisdom_Bottle
-  m_TagString: Untagged
+  m_TagString: Object1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3369312863757987940}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -29.974, y: -1.9379088, z: -6.096}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
@@ -74,9 +74,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3369312863757987940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f6787dd9613f44fa3dbecdbcb98746, type: 3}
+  m_Script: {fileID: 11500000, guid: c15aea26d1ca4d9408c2d19226d42910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Opening: {fileID: 0}
 --- !u!1 &3369312863844761475
 GameObject:
   m_ObjectHideFlags: 0

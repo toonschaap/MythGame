@@ -1594,6 +1594,11 @@ PrefabInstance:
       propertyPath: bottleOpening
       value: 
       objectReference: {fileID: 1948898703}
+    - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
+        type: 3}
+      propertyPath: Opening
+      value: 
+      objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdff565ae430ac4f996dce1f90938be, type: 3}
 --- !u!4 &65631881 stripped
@@ -3023,6 +3028,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
+      value: 
+      objectReference: {fileID: 1159591290}
+    - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
+        type: 3}
+      propertyPath: Opening
       value: 
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
@@ -5199,6 +5209,11 @@ PrefabInstance:
       propertyPath: JarOpening
       value: 
       objectReference: {fileID: 1159591290}
+    - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
+        type: 3}
+      propertyPath: Opening
+      value: 
+      objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
 --- !u!1001 &385370961
@@ -5530,6 +5545,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lootchest
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761026464332974190, guid: 2321ecbd12b50704983912b025b41392,
+        type: 3}
+      propertyPath: m_TagString
+      value: Object3
       objectReference: {fileID: 0}
     - target: {fileID: 1761026464332974186, guid: 2321ecbd12b50704983912b025b41392,
         type: 3}
@@ -7986,6 +8006,11 @@ PrefabInstance:
       propertyPath: JarOpening
       value: 
       objectReference: {fileID: 1159591290}
+    - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
+        type: 3}
+      propertyPath: Opening
+      value: 
+      objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
 --- !u!4 &551378789 stripped
@@ -9710,7 +9735,7 @@ PrefabInstance:
     - target: {fileID: 703661138963571646, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.68
+      value: 44.27
       objectReference: {fileID: 0}
     - target: {fileID: 703661138963571646, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
@@ -9822,6 +9847,36 @@ PrefabInstance:
       propertyPath: walkingDistance
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: pointA.x
+      value: 51.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: pointA.y
+      value: -4.553208
+      objectReference: {fileID: 0}
+    - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: pointB.y
+      value: -4.553208
+      objectReference: {fileID: 0}
+    - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: pointA.z
+      value: -157.1853
+      objectReference: {fileID: 0}
+    - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: pointB.z
+      value: -157.1853
+      objectReference: {fileID: 0}
+    - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: pointB.x
+      value: 44.27
+      objectReference: {fileID: 0}
     - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: dealDamage
@@ -9832,6 +9887,11 @@ PrefabInstance:
       propertyPath: hit
       value: 
       objectReference: {fileID: 1204980821}
+    - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
+        type: 3}
+      propertyPath: Enemy
+      value: 
+      objectReference: {fileID: 1908108793}
     - target: {fileID: 703661138553017959, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: m_TagString
@@ -10079,6 +10139,11 @@ PrefabInstance:
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: bottleOpening
+      value: 
+      objectReference: {fileID: 1948898703}
+    - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
+        type: 3}
+      propertyPath: Opening
       value: 
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
@@ -10546,6 +10611,11 @@ PrefabInstance:
       propertyPath: JarOpening
       value: 
       objectReference: {fileID: 1159591290}
+    - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
+        type: 3}
+      propertyPath: Opening
+      value: 
+      objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
 --- !u!4 &784875865 stripped
@@ -10911,7 +10981,7 @@ GameObject:
   - component: {fileID: 805767766}
   - component: {fileID: 805767765}
   m_Layer: 5
-  m_Name: Text
+  m_Name: WisdomCounter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15719,6 +15789,11 @@ PrefabInstance:
       propertyPath: bottleOpening
       value: 
       objectReference: {fileID: 1948898703}
+    - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
+        type: 3}
+      propertyPath: Opening
+      value: 
+      objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdff565ae430ac4f996dce1f90938be, type: 3}
 --- !u!4 &1184570288 stripped
@@ -17290,6 +17365,11 @@ PrefabInstance:
       propertyPath: JarOpening
       value: 
       objectReference: {fileID: 1159591290}
+    - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
+        type: 3}
+      propertyPath: Opening
+      value: 
+      objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
 --- !u!1001 &1288634682
@@ -17962,6 +18042,11 @@ PrefabInstance:
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: bottleOpening
+      value: 
+      objectReference: {fileID: 1948898703}
+    - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
+        type: 3}
+      propertyPath: Opening
       value: 
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
@@ -19451,6 +19536,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
+      value: 
+      objectReference: {fileID: 1159591290}
+    - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
+        type: 3}
+      propertyPath: Opening
       value: 
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
@@ -25395,6 +25485,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1905892864}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1908108793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3086527822659118869, guid: 0647a078aef6e42438ebe1e662e142ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 3086527824232693940}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1914420586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28837,6 +28933,11 @@ PrefabInstance:
       propertyPath: JarOpening
       value: 
       objectReference: {fileID: 1159591290}
+    - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
+        type: 3}
+      propertyPath: Opening
+      value: 
+      objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
 --- !u!4 &2121122776 stripped
@@ -29112,6 +29213,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lootchest
       objectReference: {fileID: 0}
+    - target: {fileID: 1761026464332974190, guid: 2321ecbd12b50704983912b025b41392,
+        type: 3}
+      propertyPath: m_TagString
+      value: Object3
+      objectReference: {fileID: 0}
     - target: {fileID: 1761026464332974186, guid: 2321ecbd12b50704983912b025b41392,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29316,8 +29422,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 675b70a070c1d3846bd856b18775355a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wisdom: 0
-  WisdomText: {fileID: 805767765}
+  Score: 0
+  ScoreText: {fileID: 805767765}
+  Score1: 1
+  Score2: 5
+  Score3: 10
 --- !u!1001 &3369312863558871100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29387,7 +29496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
-      propertyPath: bottleOpening
+      propertyPath: Opening
       value: 
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []

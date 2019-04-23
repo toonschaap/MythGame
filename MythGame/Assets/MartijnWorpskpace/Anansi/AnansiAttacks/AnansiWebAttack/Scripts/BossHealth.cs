@@ -5,30 +5,37 @@ using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
-    public int BossHp;
+  
+    [SerializeField]
+    private int Counter;
+    [SerializeField]
+    private AudioSource dealDamage;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        BossHp = 3;    
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (BossHp == 0)
+        if (Counter <= 0)
         {
-            SceneManager.LoadScene("Win");
+            SceneManager.LoadScene("WinScene");
         }
     }
-
-    public void OnCollisionEnter(Collision collision)//Damage to boss when web is deflected
+    void OnTriggerEnter(Collider collision)
     {
+        //Changing the tag to a gameobject broke the script. Therefore the tags remained.
         if (collision.gameObject.tag == "projectile")
         {
-            BossHp = BossHp --;
-            Debug.Log("Boss has taken damage");
+           
+            Debug.Log("Enemy hit");
+            Counter--;
         }
-        
+    }
+
+    private IEnumerator EnemyDeathTimer()
+    {
+        yield return new WaitForSeconds(3);
+        Destroy(this.gameObject);
     }
 }
+
+       
+  
+
