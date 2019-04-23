@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Deflect : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject Projectile;
+
 
     public void OnTriggerStay(Collider collision)
     {

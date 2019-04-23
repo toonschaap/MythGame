@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1405,8 +1405,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -1592,12 +1592,12 @@ PrefabInstance:
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: bottleOpening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdff565ae430ac4f996dce1f90938be, type: 3}
@@ -2557,7 +2557,7 @@ PrefabInstance:
     - target: {fileID: 1761026464332974184, guid: 2321ecbd12b50704983912b025b41392,
         type: 3}
       propertyPath: openingSound
-      value: 
+      value:
       objectReference: {fileID: 1422885725}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2321ecbd12b50704983912b025b41392, type: 3}
@@ -3028,12 +3028,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
@@ -3554,8 +3554,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5b2f8d6ab8eac44385557e2874cd91b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1001 &288997932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4303,7 +4303,7 @@ PrefabInstance:
     - target: {fileID: 1761026464332974184, guid: 2321ecbd12b50704983912b025b41392,
         type: 3}
       propertyPath: openingSound
-      value: 
+      value:
       objectReference: {fileID: 1422885725}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2321ecbd12b50704983912b025b41392, type: 3}
@@ -5207,12 +5207,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
@@ -5609,7 +5609,7 @@ PrefabInstance:
     - target: {fileID: 1761026464332974184, guid: 2321ecbd12b50704983912b025b41392,
         type: 3}
       propertyPath: openingSound
-      value: 
+      value:
       objectReference: {fileID: 1422885725}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2321ecbd12b50704983912b025b41392, type: 3}
@@ -6375,8 +6375,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -7757,7 +7757,7 @@ PrefabInstance:
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: bottleOpening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdff565ae430ac4f996dce1f90938be, type: 3}
@@ -8004,12 +8004,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
@@ -8401,8 +8401,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -8418,8 +8418,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -9623,7 +9623,7 @@ PrefabInstance:
     - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: PlayerTransform
-      value: 
+      value:
       objectReference: {fileID: 927444767}
     - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
@@ -9638,12 +9638,12 @@ PrefabInstance:
     - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: dealDamage
-      value: 
+      value:
       objectReference: {fileID: 1204980821}
     - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: hit
-      value: 
+      value:
       objectReference: {fileID: 1204980821}
     - target: {fileID: 703661138553017959, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
@@ -9835,7 +9835,7 @@ PrefabInstance:
     - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: PlayerTransform
-      value: 
+      value:
       objectReference: {fileID: 927444767}
     - target: {fileID: 703661138402368549, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
@@ -9880,17 +9880,17 @@ PrefabInstance:
     - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: dealDamage
-      value: 
+      value:
       objectReference: {fileID: 1204980821}
     - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: hit
-      value: 
+      value:
       objectReference: {fileID: 1204980821}
     - target: {fileID: 703661138402368559, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
       propertyPath: Enemy
-      value: 
+      value:
       objectReference: {fileID: 1908108793}
     - target: {fileID: 703661138553017959, guid: d3b3a74a446bbea4383ff3da31869593,
         type: 3}
@@ -10139,12 +10139,12 @@ PrefabInstance:
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: bottleOpening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdff565ae430ac4f996dce1f90938be, type: 3}
@@ -10609,12 +10609,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
@@ -11016,8 +11016,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -15787,12 +15787,12 @@ PrefabInstance:
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: bottleOpening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdff565ae430ac4f996dce1f90938be, type: 3}
@@ -16738,8 +16738,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -16757,8 +16757,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -17363,12 +17363,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
@@ -18042,12 +18042,12 @@ PrefabInstance:
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: bottleOpening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdff565ae430ac4f996dce1f90938be, type: 3}
@@ -19210,7 +19210,7 @@ PrefabInstance:
     - target: {fileID: 1761026464332974184, guid: 2321ecbd12b50704983912b025b41392,
         type: 3}
       propertyPath: openingSound
-      value: 
+      value:
       objectReference: {fileID: 1422885725}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2321ecbd12b50704983912b025b41392, type: 3}
@@ -19536,12 +19536,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
@@ -25934,8 +25934,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -28931,12 +28931,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509525693, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
       propertyPath: JarOpening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     - target: {fileID: 7161435707569138880, guid: ab430cf08020222478123d9bd45f80c3,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1159591290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab430cf08020222478123d9bd45f80c3, type: 3}
@@ -29276,7 +29276,7 @@ PrefabInstance:
     - target: {fileID: 1761026464332974184, guid: 2321ecbd12b50704983912b025b41392,
         type: 3}
       propertyPath: openingSound
-      value: 
+      value:
       objectReference: {fileID: 1422885725}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2321ecbd12b50704983912b025b41392, type: 3}
@@ -29350,27 +29350,27 @@ PrefabInstance:
     - target: {fileID: 3086527823548542888, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: walk
-      value: 
+      value:
       objectReference: {fileID: 957694960}
     - target: {fileID: 3086527823548542888, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: run
-      value: 
+      value:
       objectReference: {fileID: 504838593}
     - target: {fileID: 3086527823548542895, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: walkSound
-      value: 
+      value:
       objectReference: {fileID: 957694960}
     - target: {fileID: 3086527823548542895, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: runSound
-      value: 
+      value:
       objectReference: {fileID: 504838593}
     - target: {fileID: 3086527823548542895, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: slash
-      value: 
+      value:
       objectReference: {fileID: 1895482735}
     - target: {fileID: 3086527823548542895, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
@@ -29385,22 +29385,22 @@ PrefabInstance:
     - target: {fileID: 3086527823548542868, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: takeDamage
-      value: 
+      value:
       objectReference: {fileID: 396854671}
     - target: {fileID: 3086527823548542868, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: hearts.Array.data[0]
-      value: 
+      value:
       objectReference: {fileID: 62444349}
     - target: {fileID: 3086527823548542868, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: hearts.Array.data[1]
-      value: 
+      value:
       objectReference: {fileID: 440720974}
     - target: {fileID: 3086527823548542868, guid: 0647a078aef6e42438ebe1e662e142ac,
         type: 3}
       propertyPath: hearts.Array.data[2]
-      value: 
+      value:
       objectReference: {fileID: 1931099620}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0647a078aef6e42438ebe1e662e142ac, type: 3}
@@ -29420,13 +29420,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 675b70a070c1d3846bd856b18775355a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Score: 0
-  ScoreText: {fileID: 805767765}
-  Score1: 1
-  Score2: 5
-  Score3: 10
+  m_Name:
+  m_EditorClassIdentifier:
+  Wisdom: 0
+  WisdomText: {fileID: 805767765}
+--- !u!114 &3086527824232693943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3086527824232693941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f863ef000574e7a42aff6424e90eaed7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  walk: {fileID: 957694960}
+  run: {fileID: 504838593}
 --- !u!1001 &3369312863558871100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29497,7 +29508,7 @@ PrefabInstance:
     - target: {fileID: 3369312863757987941, guid: 8cdff565ae430ac4f996dce1f90938be,
         type: 3}
       propertyPath: Opening
-      value: 
+      value:
       objectReference: {fileID: 1948898703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdff565ae430ac4f996dce1f90938be, type: 3}

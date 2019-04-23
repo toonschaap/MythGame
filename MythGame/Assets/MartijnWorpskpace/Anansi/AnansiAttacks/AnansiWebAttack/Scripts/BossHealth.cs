@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
-  
+
     [SerializeField]
     private int Counter;
     [SerializeField]
@@ -23,7 +23,7 @@ public class BossHealth : MonoBehaviour
         //Changing the tag to a gameobject broke the script. Therefore the tags remained.
         if (collision.gameObject.tag == "projectile")
         {
-           
+
             Debug.Log("Enemy hit");
             Counter--;
         }
@@ -35,7 +35,3 @@ public class BossHealth : MonoBehaviour
         Destroy(this.gameObject);
     }
 }
-
-       
-  
-

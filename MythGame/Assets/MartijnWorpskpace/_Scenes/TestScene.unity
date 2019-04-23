@@ -658,6 +658,7 @@ MonoBehaviour:
   SecondCamera: {fileID: 0}
   pivot: {fileID: 0}
   camTrans: {fileID: 0}
+  bossfight: 0
 --- !u!4 &624365491
 Transform:
   m_ObjectHideFlags: 0
@@ -823,13 +824,19 @@ MonoBehaviour:
   vertical: 0
   moveAmount: 0
   moveDir: {x: 0, y: 0, z: 0}
+  Sword: {fileID: 0}
+  walkSound: {fileID: 0}
+  runSound: {fileID: 0}
+  slash: {fileID: 0}
   run: 0
+  walk: 0
   anim: {fileID: 0}
   rb: {fileID: 0}
   delta: 0
   ignoreLayers:
     serializedVersion: 2
     m_Bits: 0
+  attackSpeed: 1
 --- !u!114 &927444764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -842,6 +849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf20bf3daf13c34f918fe4d4ee1b615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walk: {fileID: 0}
+  run: {fileID: 0}
 --- !u!54 &927444765
 Rigidbody:
   m_ObjectHideFlags: 0

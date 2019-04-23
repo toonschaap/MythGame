@@ -496,6 +496,7 @@ MonoBehaviour:
   SecondCamera: {fileID: 392235959}
   pivot: {fileID: 0}
   camTrans: {fileID: 0}
+  bossfight: 0
 --- !u!1001 &779667750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -652,6 +653,7 @@ MonoBehaviour:
   SecondCamera: {fileID: 392235959}
   pivot: {fileID: 0}
   camTrans: {fileID: 0}
+  bossfight: 0
 --- !u!54 &798553309
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1409,6 +1411,9 @@ MonoBehaviour:
   moveAmount: 0
   moveDir: {x: 0, y: 0, z: 0}
   Sword: {fileID: 779667752}
+  walkSound: {fileID: 0}
+  runSound: {fileID: 0}
+  slash: {fileID: 0}
   run: 0
   walk: 0
   anim: {fileID: 0}
@@ -1417,6 +1422,7 @@ MonoBehaviour:
   ignoreLayers:
     serializedVersion: 2
     m_Bits: 0
+  attackSpeed: 1
 --- !u!114 &1828395590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1429,6 +1435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf20bf3daf13c34f918fe4d4ee1b615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walk: {fileID: 0}
+  run: {fileID: 0}
 --- !u!54 &1828395591
 Rigidbody:
   m_ObjectHideFlags: 0
