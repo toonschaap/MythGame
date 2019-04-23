@@ -6,22 +6,24 @@ using UnityEngine;
 public class ProjectileFire : MonoBehaviour
 {
     GameObject Bullet;
+    public GameObject activeModel;
     public GameObject Projectile;
-    public int firerate;
+
     [HideInInspector]
     public Animator anim;
+
     private bool WebAttack;
-
     private bool canShoot = true;
-    public AudioSource shootSound;
 
-    public GameObject activeModel;
-    // Start is called before the first frame update
+    [SerializeField]
+    private AudioSource shootSound;
+    [SerializeField]
+    private int firerate;
+
     private void Start()
     {
         SetupAnimator();
     }
-
 
     private void SetupAnimator()
     {
@@ -58,10 +60,8 @@ public class ProjectileFire : MonoBehaviour
             canShoot = false;
             StartCoroutine("WaitForShot");
         }
-            
+
     }
-
-
 
     IEnumerator WaitForShot()
     {

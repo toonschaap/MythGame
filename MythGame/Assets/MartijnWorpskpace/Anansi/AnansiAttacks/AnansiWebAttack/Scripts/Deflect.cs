@@ -12,8 +12,8 @@ public class Deflect : MonoBehaviour
         if (collision.gameObject.tag == "projectile")
         {
             GameObject finder = collision.gameObject;
-            finder.GetComponent<WebBallMovement>().StartCoroutine("InverseMovement");
-            
+            finder.GetComponent<DeflectedMovement>().StartCoroutine("InverseMovement");
+            Debug.Log("collide with deflect");
         }
     }
 }
