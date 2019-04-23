@@ -6,16 +6,20 @@ using UnityEngine;
 public class ProjectileFire : MonoBehaviour
 {
     GameObject Bullet;
-    public GameObject Projectile;
-    public int firerate;
+    [SerializeField]
+    private GameObject Projectile;
+    [SerializeField]
+    private int firerate;
     [HideInInspector]
     public Animator anim;
     private bool WebAttack;
-
+    [SerializeField]
+    private ParticleSystem webAttack;
     private bool canShoot = true;
-    public AudioSource shootSound;
-
-    public GameObject activeModel;
+    [SerializeField]
+    private AudioSource shootSound;
+    [SerializeField]
+    private GameObject activeModel;
     // Start is called before the first frame update
     private void Start()
     {
@@ -42,7 +46,7 @@ public class ProjectileFire : MonoBehaviour
     }
 
 
-    private void HandleMovementAnimations()
+    private void HandleAttackAnimations()
     {
 
         anim.SetBool("WebAttack", WebAttack);
@@ -51,7 +55,7 @@ public class ProjectileFire : MonoBehaviour
 
     void FixedUpdate()
     {
-        HandleMovementAnimations();
+        HandleAttackAnimations();
 
         if (canShoot)
         {
@@ -69,7 +73,13 @@ public class ProjectileFire : MonoBehaviour
         yield return new WaitForSeconds(firerate);
         canShoot = true;
         WebAttack = false;
-        shootSound.Play();
+
+        Explode();
         Bullet = Instantiate(Projectile, transform.position, Quaternion.identity) as GameObject;
+    }
+    void Explode()
+    {
+        Instantiate(webAttack);
+        webAttack.Play();
     }
 }
