@@ -29,9 +29,4 @@ public class BossHealth : MonoBehaviour
         }
     }
 
-    private IEnumerator EnemyDeathTimer()
-    {
-        yield return new WaitForSeconds(3);
-        Destroy(this.gameObject);
-    }
 }
