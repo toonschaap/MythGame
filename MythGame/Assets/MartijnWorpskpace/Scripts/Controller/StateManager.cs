@@ -4,7 +4,8 @@ using System.Collections;
 public class StateManager : MonoBehaviour
 {
     [Header("Init")]
-    public GameObject activeModel;
+    [SerializeField]
+    private GameObject activeModel;
 
     [Header("Inputs")]
     public float horizontal;
@@ -19,6 +20,9 @@ public class StateManager : MonoBehaviour
     private float rotateSpeed = 5;
     private float toGround = 0.5f;
 
+    [SerializeField]
+    private float attackSpeed = 1f;
+    private float nextAttack = 1f;
     [SerializeField]
     private BoxCollider Sword;
 
@@ -127,10 +131,7 @@ public class StateManager : MonoBehaviour
         anim.SetBool("onGround", onGround);
     }
 
-    [SerializeField]
-    private float attackSpeed = 1f;
 
-    private float nextAttack = 1f;
 
     private IEnumerator PlaySound()
     {

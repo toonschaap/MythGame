@@ -2,7 +2,7 @@
 
 public class CameraManager : MonoBehaviour
 {
-    public bool lockon;
+    
     private float followSpeed = 9;
     private float mouseSpeed = 3;
     private float controllerSpeed = 7;

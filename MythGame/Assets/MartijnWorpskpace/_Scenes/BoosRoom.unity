@@ -5004,7 +5004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112114018}
   - component: {fileID: 1112114019}
-  - component: {fileID: 1112114021}
+  - component: {fileID: 1112114020}
   m_Layer: 0
   m_Name: Hitbox
   m_TagString: EnemyHitBox
@@ -5034,12 +5034,12 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112114017}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.28293204, y: 0.25130835, z: 0.24980098}
   m_Center: {x: -0.009994743, y: 0.046509873, z: -0.027812757}
---- !u!114 &1112114021
+--- !u!114 &1112114020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
