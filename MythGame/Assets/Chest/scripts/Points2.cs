@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WisdomJar : MonoBehaviour
+public class Points2 : MonoBehaviour
 {
     [SerializeField]
     private AudioSource Opening;

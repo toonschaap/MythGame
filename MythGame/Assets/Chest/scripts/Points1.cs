@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WisdomBottle : MonoBehaviour
+public class Points1 : MonoBehaviour
 {
     [SerializeField]
     private AudioSource Opening;

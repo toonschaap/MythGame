@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WisdomChest : MonoBehaviour
+public class Points3 : MonoBehaviour
 {
     [SerializeField]
     private bool Open;
