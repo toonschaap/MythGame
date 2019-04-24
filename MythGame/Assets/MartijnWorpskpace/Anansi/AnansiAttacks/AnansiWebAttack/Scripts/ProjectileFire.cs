@@ -26,7 +26,6 @@ public class ProjectileFire : MonoBehaviour
         SetupAnimator();
     }
 
-
     private void SetupAnimator()
     {
         if (activeModel == null)
@@ -62,10 +61,8 @@ public class ProjectileFire : MonoBehaviour
             canShoot = false;
             StartCoroutine("WaitForShot");
         }
-            
+
     }
-
-
 
     IEnumerator WaitForShot()
     {
