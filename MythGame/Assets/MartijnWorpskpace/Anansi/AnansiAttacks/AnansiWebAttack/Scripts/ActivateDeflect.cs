@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ActivateDeflect : MonoBehaviour
 {
-    [SerializeField]
-    private Collider Deflectbox;
+    //Making the collider private broke the script.
+   public Collider Deflectbox;
 
      void Start()
     {
