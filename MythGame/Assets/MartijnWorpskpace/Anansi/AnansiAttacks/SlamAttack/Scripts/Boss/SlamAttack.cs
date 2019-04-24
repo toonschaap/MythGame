@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnansiSlamAttack : MonoBehaviour
+public class SlamAttack : MonoBehaviour
 {
     [SerializeField]
-    private GameObject Rock;
+    private GameObject Object;
 
     [SerializeField]
     private GameObject player;
@@ -14,16 +14,15 @@ public class AnansiSlamAttack : MonoBehaviour
     [SerializeField]
     private float spawnThreshold = 100f;
     private float spawnTimer;
-    private bool SlamAttackAnansi;
+
 
     [HideInInspector]
     public Animator anim;
 
     public GameObject activeModel;
 
-    private bool SlamAttack = false;
+    private bool Attack = false;
 
-    public AudioSource SlamSound;
 
 
 
@@ -52,7 +51,7 @@ public class AnansiSlamAttack : MonoBehaviour
     }
     private void HandleMovementAnimations()
     {
-        anim.SetBool("RockAttack", SlamAttackAnansi);
+        anim.SetBool("RockAttack", Attack);
     }
 
 
@@ -69,7 +68,7 @@ public class AnansiSlamAttack : MonoBehaviour
 
 
         spawnTimer += 0.01f;
-        if (SlamAttack == true)
+        if (Attack)
         {
             if (spawnTimer >= spawnThreshold)
             {
@@ -88,7 +87,7 @@ public class AnansiSlamAttack : MonoBehaviour
 
         Vector3 spawnPos = playerPos + playerDirection * height;
 
-        Instantiate(Rock, spawnPos, Quaternion.identity);
+        Instantiate(Object, spawnPos, Quaternion.identity);
         StopCoroutine("StartSlamAnimation");
         StartCoroutine("StartSlam");
 
@@ -99,17 +98,14 @@ public class AnansiSlamAttack : MonoBehaviour
     {
 
         yield return new WaitForSeconds(5);
-
-        SlamAttackAnansi = true;
-        SlamAttack = true;
+        Attack = true;
     }
 
     IEnumerator StartSlam()
     {
 
         yield return new WaitForSeconds(5);
-        SlamAttackAnansi = false;
-        SlamAttack = false;
+        Attack = false;
 
     }
 
