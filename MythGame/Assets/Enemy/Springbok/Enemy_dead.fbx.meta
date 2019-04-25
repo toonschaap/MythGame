@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 03b4fcc4167eb174aafa1698a43767bd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Back
+    100002: Back_C
+    100004: Base_tail
+    100006: //RootNode
+    100008: head
+    100010: Left_ankle
+    100012: Left_feet
+    100014: Left_hip
+    100016: Left_hoove
+    100018: Left_knee
+    100020: Left_knee 1
+    100022: Left_leg_C
+    100024: Left_lower_leg
+    100026: Left_paw
+    100028: Left_paw_C
+    100030: Left_shoulder
+    100032: Left_titty
+    100034: Left_toe
+    100036: Left_toe 1
+    100038: Left_up_leg_C
+    100040: Left_upper_leg
+    100042: neck
+    100044: Neck_C
+    100046: pelvis
+    100048: Pelvis_C
+    100050: Right_ankle
+    100052: Right_feet
+    100054: Right_hip
+    100056: Right_hoove
+    100058: Right_knee
+    100060: Right_knee 1
+    100062: Right_leg_C
+    100064: Right_lower_leg
+    100066: Right_paw
+    100068: Right_paw_C
+    100070: Right_shoulder
+    100072: Right_titty
+    100074: Right_toe
+    100076: Right_toe 1
+    100078: Right_up_leg_C
+    100080: Right_upper_leg
+    100082: spine
+    100084: Springbok
+    100086: Tail_C
+    100088: Tip_tail
+    100090: Top_head
+    400000: Back
+    400002: Back_C
+    400004: Base_tail
+    400006: //RootNode
+    400008: head
+    400010: Left_ankle
+    400012: Left_feet
+    400014: Left_hip
+    400016: Left_hoove
+    400018: Left_knee
+    400020: Left_knee 1
+    400022: Left_leg_C
+    400024: Left_lower_leg
+    400026: Left_paw
+    400028: Left_paw_C
+    400030: Left_shoulder
+    400032: Left_titty
+    400034: Left_toe
+    400036: Left_toe 1
+    400038: Left_up_leg_C
+    400040: Left_upper_leg
+    400042: neck
+    400044: Neck_C
+    400046: pelvis
+    400048: Pelvis_C
+    400050: Right_ankle
+    400052: Right_feet
+    400054: Right_hip
+    400056: Right_hoove
+    400058: Right_knee
+    400060: Right_knee 1
+    400062: Right_leg_C
+    400064: Right_lower_leg
+    400066: Right_paw
+    400068: Right_paw_C
+    400070: Right_shoulder
+    400072: Right_titty
+    400074: Right_toe
+    400076: Right_toe 1
+    400078: Right_up_leg_C
+    400080: Right_upper_leg
+    400082: spine
+    400084: Springbok
+    400086: Tail_C
+    400088: Tip_tail
+    400090: Top_head
+    2100000: lambert2
+    4300000: Springbok
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Springbok
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
