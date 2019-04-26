@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Points1 : MonoBehaviour
 {
-    [SerializeField]
-    private AudioSource Opening;
+  
   
     private void OnTriggerEnter(Collider other)
     {
@@ -13,7 +12,7 @@ public class Points1 : MonoBehaviour
         {
             GameObject Finder = GameObject.FindWithTag("Player");
             Finder.GetComponent<ScoreCounter>().PointsObject1();
-            Opening.Play();
+           
             Destroy(this.gameObject);
         }
     }

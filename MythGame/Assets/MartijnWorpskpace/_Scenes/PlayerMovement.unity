@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,6 +122,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -265,6 +273,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.008655992
@@ -339,6 +355,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -536,6 +560,14 @@ PrefabInstance:
     - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_Name
       value: Pillar_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 524688848, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -767,6 +799,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -961,6 +1003,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -1306,6 +1358,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 524688848, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2190781
@@ -1443,6 +1503,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -1792,6 +1862,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2579,6 +2657,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2673,6 +2761,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.07000923
@@ -2746,6 +2842,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -2910,6 +3016,14 @@ PrefabInstance:
     - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_Name
       value: Pillar_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 524688848, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3143,6 +3257,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3568,6 +3690,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3676,6 +3808,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3820,6 +3960,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3909,6 +4059,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -4343,6 +4503,10 @@ PrefabInstance:
     - target: {fileID: 100008, guid: f3d93e45a45d9b5439b84c1f830e65b4, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: f3d93e45a45d9b5439b84c1f830e65b4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: f3d93e45a45d9b5439b84c1f830e65b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5393,6 +5557,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5481,6 +5655,14 @@ PrefabInstance:
     - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_Name
       value: Pillar_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 524688848, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5711,6 +5893,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0003
@@ -5914,6 +6104,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6079,6 +6279,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6169,6 +6379,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6257,6 +6477,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6758,6 +6986,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.384008
@@ -6830,6 +7066,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7214,6 +7458,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7544,6 +7798,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7622,6 +7886,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7778,6 +8050,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -8105,6 +8387,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -8813,6 +9105,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 524688848, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2190781
@@ -8887,6 +9187,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9207,6 +9515,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9295,6 +9613,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9673,6 +9999,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1689246651, guid: b31b807a5709bdb4a8aa237f50288d08, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689246651, guid: b31b807a5709bdb4a8aa237f50288d08, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1689246654, guid: b31b807a5709bdb4a8aa237f50288d08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.870922
@@ -9925,6 +10259,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -10266,6 +10610,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10489,6 +10843,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10826,6 +11188,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10914,6 +11286,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11068,6 +11448,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11329,6 +11717,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 524688848, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1969223
@@ -11471,6 +11867,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -11651,6 +12057,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.1179
@@ -11725,6 +12139,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12053,6 +12475,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -13374,6 +13806,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13559,6 +14001,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13648,6 +14100,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -13813,6 +14275,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -14029,6 +14501,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14118,6 +14600,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -14299,6 +14791,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14388,6 +14890,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -14734,6 +15246,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pillar_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 524688848, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.25
@@ -15025,6 +15545,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15824,6 +16352,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16120,6 +16658,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -16458,6 +17006,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -16868,6 +17426,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0324
@@ -17010,6 +17576,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.332165
@@ -17080,6 +17654,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17393,6 +17975,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.42401
@@ -17467,6 +18057,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17827,6 +18425,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18484,6 +19090,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18648,6 +19264,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.0429363
@@ -18807,6 +19431,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18896,6 +19530,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -33.789886
@@ -18970,6 +19612,14 @@ PrefabInstance:
     - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_Name
       value: Pillar_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 524688845, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 524688848, guid: 76549d9dc912e824cb74b37ec405cd27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19331,6 +19981,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -19741,6 +20401,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19973,6 +20643,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.42401
@@ -20047,6 +20725,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20359,6 +21045,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20591,6 +21287,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -21004,6 +21710,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21183,6 +21899,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.01898
@@ -21257,6 +21981,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21540,6 +22272,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.169098
@@ -21611,6 +22351,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -22492,6 +23242,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.023
@@ -22567,6 +23325,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -22676,6 +23444,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.023
@@ -22751,6 +23527,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -22841,6 +23627,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -23083,6 +23879,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23266,6 +24072,14 @@ PrefabInstance:
     - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_Name
       value: Stoneup_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23556,6 +24370,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -23975,6 +24799,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -24571,6 +25405,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2229366
@@ -24642,6 +25484,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -24822,6 +25674,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0214
@@ -24987,6 +25847,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -25587,6 +26457,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.27
@@ -26143,6 +27021,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.000027434773
@@ -26308,6 +27194,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -26610,6 +27506,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.378721
@@ -26752,6 +27656,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -26917,6 +27831,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -27122,6 +28046,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
@@ -27947,6 +28881,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28305,6 +29249,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0455
@@ -28471,6 +29423,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallStone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28565,6 +29527,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stoneup_01
       objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 356599318, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 356599321, guid: 51e18bf869fc0404e87e84b0c4cc11de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.072937
@@ -28628,6 +29598,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136871601022962865, guid: 97f96ccdae16a06419e39870ab2a444f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7238971637426793361, guid: 97f96ccdae16a06419e39870ab2a444f,
         type: 3}
@@ -28793,6 +29773,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SmallStone_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896217102888783028, guid: 55f3bd33f11403c459ce1649165683f2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3308285375185400993, guid: 55f3bd33f11403c459ce1649165683f2,
         type: 3}
