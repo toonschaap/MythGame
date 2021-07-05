@@ -4,9 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Chest
-  - KeyChest
-  - ChestKey
+  - Enemy
+  - EnemyWeapon
+  - Weapon
+  - PlayerWeapon
+  - projectile
+  - Anansi
+  - Rock
+  - EnemyHitBox
+  - PlayerHitBox
+  - Object1
+  - Object2
+  - Object3
   layers:
   - Default
   - TransparentFX
@@ -17,7 +26,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - Wall
   - 
   - 
   - 
